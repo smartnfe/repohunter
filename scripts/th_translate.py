@@ -96,21 +96,39 @@ def has_thai(text):
     return bool(THAI_RE.search(text or ''))
 
 
-CATEGORY_LABEL = {
-    'ai': 'โปรเจกต์ AI ด้าน',
-    'automation': 'เครื่องมืออัตโนมัติสำหรับ',
-    'trading': 'เครื่องมือเทรด/การเงินด้าน',
-    'tool': 'เครื่องมือสำหรับนักพัฒนาด้าน',
-    'tools': 'เครื่องมือสำหรับนักพัฒนาด้าน',
+CATEGORY_NOUN = {
+    'ai': 'โปรเจกต์ AI',
+    'automation': 'เครื่องมืออัตโนมัติ',
+    'trading': 'เครื่องมือเทรด/การเงิน',
+    'tool': 'เครื่องมือนักพัฒนา',
+    'tools': 'เครื่องมือนักพัฒนา',
+}
+
+# แนวคิดที่ตรงกับหมวดมากที่สุดให้ขึ้นก่อน ไม่งั้น repo สายเทรดจะได้ "เอเจนต์ AI" นำหน้าเสมอ
+CATEGORY_PRIORITY = {
+    'trading': ['ทดสอบกลยุทธ์ย้อนหลัง', 'เทรด', 'หุ้น/ข้อมูลตลาด', 'คริปโต',
+                'ค่าเงิน/ฟอเร็กซ์', 'พอร์ตการลงทุน', 'ตลาดแลกเปลี่ยน',
+                'อินดิเคเตอร์/วิเคราะห์ทางเทคนิค', 'กลยุทธ์', 'การเงิน'],
+    'ai': ['โมเดลภาษาขนาดใหญ่ (LLM)', 'เอเจนต์ AI', 'ระบบหลายเอเจนต์',
+           'RAG ค้นคู่บริบท', 'แมชชีนเลิร์นนิง', 'ประมวลผลภาษาธรรมชาติ',
+           'สร้างภาพด้วย AI', 'สังเคราะห์เสียงพูด', 'ถอดเสียงเป็นข้อความ',
+           'ช่วยเขียนโค้ด', 'วัดผล/ประเมินโมเดล', 'ปรับจูนโมเดล'],
+    'automation': ['ทำงานอัตโนมัติ', 'เวิร์กโฟลว์', 'ตั้งเวลาทำงาน',
+                   'ดึงข้อมูลจากเว็บ', 'บอท', 'เชื่อมต่อแชต', 'แจ้งเตือน',
+                   'เชื่อมต่อบริการแบบไม่ต้องเขียนโค้ด'],
+    'tool': ['เครื่องมือบรรทัดคำสั่ง', 'ตัวแก้ไขโค้ด', 'หน้าจอ/แดชบอร์ด',
+             'ส่วนขยาย', 'ฐานข้อมูล', 'ความปลอดภัย',
+             'เพิ่มประสิทธิภาพการทำงาน', 'จดโน้ต/ฐานความรู้'],
 }
 
 MAX_CONCEPTS = 4
 
 
 def translate_th(description, language=None, category=None):
-    """แปลงคำอธิบายอังกฤษเป็นไทยคร่าว ๆ"""
+    """แปลงคำอธิบายอังกฤษเป็นไทยคร่าว ๆ ในทำนองคำโปรย ไม่ใช่ประโยคเต็ม"""
     desc = (description or '').strip()
-    label = CATEGORY_LABEL.get(category or '', 'โปรเจกต์โอเพนซอร์สด้าน')
+    cat = (category or '').lower()
+    noun = CATEGORY_NOUN.get(cat, 'โปรเจกต์โอเพนซอร์ส')
 
     # เจ้าของ repo เขียนคำอธิบายไทยไว้เองแล้ว -> ใช้ของเดิมได้เลย
     if has_thai(desc):
@@ -120,16 +138,18 @@ def translate_th(description, language=None, category=None):
     if desc:
         text = desc.lower()
         for pattern, thai in GLOSSARY:
-            if re.search(pattern, text):
-                if thai not in concepts:
-                    concepts.append(thai)
-                if len(concepts) >= MAX_CONCEPTS:
-                    break
+            if re.search(pattern, text) and thai not in concepts:
+                concepts.append(thai)
+
+    # รวบให้ครบก่อน แล้วให้แนวคิดที่ตรงหมวดขึ้นก่อน (sort แบบเสถียร คงลำดับ glossary ภายในกลุ่ม)
+    pri = CATEGORY_PRIORITY.get(cat, [])
+    concepts.sort(key=lambda c: 0 if c in pri else 1)
+    concepts = concepts[:MAX_CONCEPTS]
 
     if concepts:
-        out = label + ' ' + ', '.join(concepts)
+        out = '%s — %s' % (noun, ' · '.join(concepts))
     else:
-        out = label + ' ซอฟต์แวร์โอเพนซอร์ส'
+        out = noun + ' โอเพนซอร์ส'
 
     if language and language != '-':
         out += ' (เขียนด้วย %s)' % language

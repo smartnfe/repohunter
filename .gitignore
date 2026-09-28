@@ -2,3 +2,12 @@
 # Python
 __pycache__/
 *.pyc
+
+# Secrets — config/fb-config.json มี Page Access Token ห้ามหลุดขึ้น repo
+config/
+
+# สินค้าที่ generate ใหม่ทุกวัน
+renders/
+
+# สถานะ runtime (เปลี่ยนทุกวันตามรอบโพสต์)
+data/posted.json

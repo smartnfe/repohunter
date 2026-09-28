@@ -131,6 +131,7 @@ async function fetchRepos() {
         filteredRepos = [...allRepos];
         updateStats();
         renderRepos();
+        applyDeepLink();
     } catch (error) {
         console.error('Error fetching repos:', error);
         document.getElementById('repo-grid').innerHTML = 
@@ -258,6 +259,20 @@ function applySort() {
     
     renderRepos();
     updateStats();
+}
+
+// ---------- Deep-link (?q=... เปิดหน้าแบบค้นหาโปรเจกต์ไว้แล้ว) ----------
+function applyDeepLink() {
+    const q = (new URLSearchParams(window.location.search).get('q') || '').trim();
+    if (!q) return;
+    document.getElementById('search').value = q;
+    const activeFilter = document.querySelector('.filter-btn.active');
+    filterRepos(activeFilter ? activeFilter.dataset.filter : 'all');
+    applySort();
+    const grid = document.getElementById('repo-grid');
+    if (grid && grid.children.length) {
+        setTimeout(() => grid.scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
+    }
 }
 
 // Event Listeners
