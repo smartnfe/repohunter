@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepoHunter - ล่าหา Repo น่าสนใจบน GitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔍 RepoHunter</h1>
+            <p>ค้นหาและรวบรวม repository น่าสนใจจาก GitHub</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Search & Filter -->
+        <section class="controls">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="ค้นหาชื่อ repo...">
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+                <button class="filter-btn" data-filter="ai">🤖 AI</button>
+                <button class="filter-btn" data-filter="automation">⚡ Automation</button>
+                <button class="filter-btn" data-filter="tool">🛠 Tools</button>
+                <button class="filter-btn" data-filter="trading">📈 Trading</button>
+            </div>
+            <div class="sort-options">
+                <label>เรียงตาม:</label>
+                <select id="sort">
+                    <option value="stars-desc">⭐ ดาว (มาก→น้อย)</option>
+                    <option value="stars-asc">⭐ ดาว (น้อย→มาก)</option>
+                    <option value="name-asc">🔤 ชื่อ (A-Z)</option>
+                    <option value="name-desc">🔤 ชื่อ (Z-A)</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats">
+            <div class="stat-card">
+                <span class="stat-num" id="total-repos">0</span>
+                <span class="stat-label">Repo ทั้งหมด</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-num" id="total-stars">0</span>
+                <span class="stat-label">รวมดาว</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-num" id="last-update">-</span>
+                <span class="stat-label">อัปเดตล่าสุด</span>
+            </div>
+        </section>
+
+        <!-- Repo Grid -->
+        <section id="repo-grid" class="repo-grid">
+            <!-- Cards loaded by JS -->
+        </section>
+
+        <!-- Empty State -->
+        <div id="empty-state" class="empty-state" style="display:none;">
+            <p>😕 ไม่พบ repo ที่ตรงกับเงื่อนไข</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>RepoHunter &copy; 2025 | ข้อมูลจาก <a href="https://github.com" target="_blank">GitHub</a></p>
+            <p>อัปเดตอัตโนมัติผ่าน GitHub Actions</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

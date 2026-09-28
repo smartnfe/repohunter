@@ -1,0 +1,19 @@
+{
+    "_meta": {
+        "last_update": "2026-09-28",
+        "sources": ["github.com/search"],
+        "total_repos": 0,
+        "next_fetch": "2026-09-29T08:00:00Z"
+    },
+    "repos": [
+        {
+            "full_name": "vercel-labs/agent-browser",
+            "description": "AI browser automation agent built by Vercel Labs",
+            "language": "TypeScript",
+            "stargazers_count": 12500,
+            "forks_count": 980,
+            "html_url": "https://github.com/vercel-labs/agent-browser",
+            "topics": ["ai", "automation", "browser"]
+        }
+    ]
+}
