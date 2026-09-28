@@ -38,7 +38,7 @@ const categoryLabels = {
 // Fetch repos data
 async function fetchRepos() {
     try {
-        const response = await fetch('/data/repos.json');
+        const response = await fetch('data/repos.json');
         if (!response.ok) throw new Error('Failed to fetch');
         const data = await response.json();
         allRepos = data.repos || [];
