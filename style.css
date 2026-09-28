@@ -225,6 +225,7 @@ main { padding-block: 2rem 3rem; }
   border-top: 1px solid var(--line);
 }
 .repo-meta .stars { font-weight: 600; color: #9a6a05; }
+.repo-age { color: #7d8c84; white-space: nowrap; }
 
 /* ---------- Empty state ---------- */
 .empty-state {

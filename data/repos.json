@@ -5,11 +5,11 @@
             "LINE Memo (curated)",
             "github.com/search"
         ],
-        "total_repos": 118,
+        "total_repos": 127,
         "curated_count": 22,
-        "fetched_count": 96,
-        "new_this_run": 36,
-        "next_fetch": "2026-09-29T03:08:44Z"
+        "fetched_count": 105,
+        "new_this_run": 0,
+        "next_fetch": "2026-09-29T03:17:59Z"
     },
     "repos": [
         {
@@ -18,7 +18,7 @@
             "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน เอเจนต์ AI (เขียนด้วย JavaScript)",
             "language": "JavaScript",
             "stargazers_count": 146973,
-            "forks_count": 7896,
+            "forks_count": 7897,
             "html_url": "https://github.com/DietrichGebert/ponytail",
             "topics": [
                 "agent-skills",
@@ -32,7 +32,9 @@
                 "prompt-engineering",
                 "yagni"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-12T00:52:37Z",
+            "pushed_at": "2026-09-14T14:34:56Z"
         },
         {
             "full_name": "microsoft/PowerToys",
@@ -47,7 +49,9 @@
                 "productivity"
             ],
             "category": "tool",
-            "description_th": "ชุดเครื่องมือฟรีจาก Microsoft สำหรับปรับแต่งและเพิ่มความสะดวกในการใช้ Windows เช่น จัดหน้าต่าง ครอบหน้าจอ คัดลอกสี และอื่น ๆ อีกมาก"
+            "description_th": "ชุดเครื่องมือฟรีจาก Microsoft สำหรับปรับแต่งและเพิ่มความสะดวกในการใช้ Windows เช่น จัดหน้าต่าง ครอบหน้าจอ คัดลอกสี และอื่น ๆ อีกมาก",
+            "created_at": "2019-05-01T17:44:02Z",
+            "pushed_at": "2026-09-28T03:05:20Z"
         },
         {
             "full_name": "guillaumemeyer/watermarks-remover",
@@ -74,15 +78,17 @@
                 "watermarking",
                 "watermarks"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-08-11T16:32:38Z",
+            "pushed_at": "2026-09-26T02:51:57Z"
         },
         {
             "full_name": "hypit-ai/hypit",
             "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
             "description_th": "โปรเจกต์ AI ด้าน เอเจนต์ AI, เวิร์กโฟลว์ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 16787,
-            "forks_count": 2015,
+            "stargazers_count": 16796,
+            "forks_count": 2016,
             "html_url": "https://github.com/hypit-ai/hypit",
             "topics": [
                 "agentic-ai",
@@ -106,14 +112,16 @@
                 "video-editing",
                 "video-generation"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-07-29T18:49:19Z",
+            "pushed_at": "2026-09-26T12:02:24Z"
         },
         {
             "full_name": "lidge-jun/opencodex",
             "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
             "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน โมเดลภาษาขนาดใหญ่ (LLM), โมเดล AI ชั้นนำ, เครื่องมือบรรทัดคำสั่ง, SDK (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 16490,
+            "stargazers_count": 16491,
             "forks_count": 1238,
             "html_url": "https://github.com/lidge-jun/opencodex",
             "topics": [
@@ -138,7 +146,9 @@
                 "proxy",
                 "typescript"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-18T23:03:18Z",
+            "pushed_at": "2026-09-27T23:34:00Z"
         },
         {
             "full_name": "yc-software/qm",
@@ -154,12 +164,14 @@
                 "harness",
                 "qm"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-07-29T20:03:08Z",
+            "pushed_at": "2026-09-27T22:55:00Z"
         },
         {
             "full_name": "XiaomiMiMo/MiMo-Code",
             "description": "MiMo Code: Where Models and Agents Co-Evolve",
-            "description_th": "MiMo Code: Where Models and Agents Co-Evolve",
+            "description_th": "โปรเจกต์ AI ด้าน เอเจนต์ AI (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 13523,
             "forks_count": 1403,
@@ -171,7 +183,9 @@
                 "mimo",
                 "mimo-code"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-06-10T11:52:41Z",
+            "pushed_at": "2026-09-26T17:04:36Z"
         },
         {
             "full_name": "vercel-labs/agent-browser",
@@ -186,12 +200,14 @@
                 "browser"
             ],
             "category": "automation",
-            "description_th": "เอเจนต์ AI สำหรับควบคุมเบราว์เซอร์อัตโนมัติจาก Vercel Labs สั่งงานเว็บด้วยภาษาธรรมชาติได้"
+            "description_th": "เอเจนต์ AI สำหรับควบคุมเบราว์เซอร์อัตโนมัติจาก Vercel Labs สั่งงานเว็บด้วยภาษาธรรมชาติได้",
+            "created_at": "2026-01-11T05:38:15Z",
+            "pushed_at": "2026-09-27T05:06:10Z"
         },
         {
             "full_name": "cobusgreyling/loop-engineering",
             "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
-            "description_th": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI, พรอมป์ต, ช่วยเขียนโค้ด, เครื่องมือบรรทัดคำสั่ง (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 11325,
             "forks_count": 1518,
@@ -215,12 +231,43 @@
                 "mcp",
                 "prompt-engineering"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-06-09T06:28:20Z",
+            "pushed_at": "2026-09-28T02:45:28Z"
+        },
+        {
+            "full_name": "openai/codex-security",
+            "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน โมเดล AI ชั้นนำ, เครื่องมือบรรทัดคำสั่ง, SDK, ความปลอดภัย (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 10867,
+            "forks_count": 823,
+            "html_url": "https://github.com/openai/codex-security",
+            "topics": [
+                "ai-security",
+                "application-security",
+                "cli",
+                "code-scanning",
+                "codex",
+                "codex-security",
+                "cybersecurity",
+                "devsecops",
+                "nodejs",
+                "npm",
+                "openai",
+                "sdk",
+                "security",
+                "typescript",
+                "vulnerability-scanning"
+            ],
+            "category": "tool",
+            "created_at": "2026-07-13T22:00:13Z",
+            "pushed_at": "2026-09-28T02:07:57Z"
         },
         {
             "full_name": "omnigent-ai/omnigent",
             "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-            "description_th": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+            "description_th": "โปรเจกต์ AI ด้าน เอเจนต์ AI, โมเดล AI ชั้นนำ, เฟรมเวิร์ก, เรียลไทม์ (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 10305,
             "forks_count": 1635,
@@ -243,7 +290,9 @@
                 "python",
                 "sandbox"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-11T12:18:13Z",
+            "pushed_at": "2026-09-28T03:05:58Z"
         },
         {
             "full_name": "trailhq/Graft",
@@ -272,14 +321,16 @@
                 "openai",
                 "tree-sitter"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-03T13:44:21Z",
+            "pushed_at": "2026-09-28T00:12:44Z"
         },
         {
             "full_name": "genspark-ai/genoffice",
             "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
             "description_th": "โปรเจกต์ AI ด้าน เอเจนต์ AI, โมเดล AI ชั้นนำ, เครื่องมือบรรทัดคำสั่ง, จดโน้ต/ฐานความรู้ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 8004,
+            "stargazers_count": 8006,
             "forks_count": 1044,
             "html_url": "https://github.com/genspark-ai/genoffice",
             "topics": [
@@ -304,14 +355,16 @@
                 "spreadsheet",
                 "xlsx"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-07-31T09:40:58Z",
+            "pushed_at": "2026-09-28T03:11:16Z"
         },
         {
             "full_name": "spinabot/brigade",
             "description": "Brigade — Your personal intelligence, built enterprise-grade",
             "description_th": "โปรเจกต์ AI ด้าน ซอฟต์แวร์โอเพนซอร์ส (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 7081,
+            "stargazers_count": 7083,
             "forks_count": 54,
             "html_url": "https://github.com/spinabot/brigade",
             "topics": [
@@ -336,14 +389,16 @@
                 "self-improving-ai",
                 "spinabot"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-06-19T15:18:17Z",
+            "pushed_at": "2026-09-15T14:44:27Z"
         },
         {
             "full_name": "elder-plinius/T3MP3ST",
             "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
             "description_th": "โปรเจกต์ AI ด้าน ระบบหลายเอเจนต์, เอเจนต์ AI, ความปลอดภัย (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 6263,
+            "stargazers_count": 6264,
             "forks_count": 1310,
             "html_url": "https://github.com/elder-plinius/T3MP3ST",
             "topics": [
@@ -353,12 +408,14 @@
                 "offensive-security",
                 "redteam"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-07-02T17:53:55Z",
+            "pushed_at": "2026-09-08T16:37:44Z"
         },
         {
             "full_name": "oomol-lab/open-connector",
             "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-            "description_th": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI, MCP, เครื่องมือบรรทัดคำสั่ง, SDK (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 5907,
             "forks_count": 522,
@@ -383,7 +440,9 @@
                 "self-hosted",
                 "typescript"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-06-29T10:49:36Z",
+            "pushed_at": "2026-09-28T03:00:24Z"
         },
         {
             "full_name": "SenteLabsAI/OpenExecutive",
@@ -405,15 +464,17 @@
                 "rag",
                 "typescript"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-06-11T21:41:54Z",
+            "pushed_at": "2026-09-27T23:20:35Z"
         },
         {
             "full_name": "TencentCloud/Octop",
             "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
             "description_th": "โปรเจกต์ AI ด้าน ระบบหลายเอเจนต์, เอเจนต์ AI, ติดตั้งเองได้ (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 5307,
-            "forks_count": 647,
+            "stargazers_count": 5309,
+            "forks_count": 649,
             "html_url": "https://github.com/TencentCloud/Octop",
             "topics": [
                 "agent",
@@ -424,7 +485,9 @@
                 "local-first",
                 "long-term-memory"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-07-08T12:54:20Z",
+            "pushed_at": "2026-09-27T14:20:25Z"
         },
         {
             "full_name": "Jia-Ethan/codex-keysmith",
@@ -444,12 +507,14 @@
                 "prompt-engineering",
                 "python"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-28T04:38:07Z",
+            "pushed_at": "2026-09-27T15:12:31Z"
         },
         {
             "full_name": "kirodotdev/KiroCrew",
             "description": "A persistent workspace for development work that self-improves and continues beyond one session.",
-            "description_th": "A persistent workspace for development work that self-improves and continues beyond one session.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ ซอฟต์แวร์โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 4176,
             "forks_count": 696,
@@ -465,12 +530,14 @@
                 "kiro",
                 "llm"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-07-16T21:21:54Z",
+            "pushed_at": "2026-09-28T03:15:52Z"
         },
         {
             "full_name": "microsoft/skill-recorder",
             "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
-            "description_th": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เครื่องมือบรรทัดคำสั่ง, ทำงานอัตโนมัติ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 4135,
             "forks_count": 434,
@@ -487,12 +554,14 @@
                 "microsoft-scout",
                 "screen-recording"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-07-29T18:16:14Z",
+            "pushed_at": "2026-09-23T11:46:46Z"
         },
         {
             "full_name": "totec448-spec/chat-on-steroids",
             "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
-            "description_th": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ ระบบหลายเอเจนต์, เอเจนต์ AI, MCP, เวิร์กโฟลว์ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 4064,
             "forks_count": 545,
@@ -509,7 +578,57 @@
                 "multi-agent",
                 "windows"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-08-22T14:16:24Z",
+            "pushed_at": "2026-09-28T02:40:02Z"
+        },
+        {
+            "full_name": "HiThink-Tech/Financial-API",
+            "description": "同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน เอเจนต์ AI, MCP, เครื่องมือบรรทัดคำสั่ง, API (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 3874,
+            "forks_count": 339,
+            "html_url": "https://github.com/HiThink-Tech/Financial-API",
+            "topics": [
+                "a-share",
+                "ai-agent",
+                "china-stock-market",
+                "cli",
+                "duckdb",
+                "financial-data",
+                "mcp",
+                "npm-package",
+                "quantitative-finance",
+                "rest-api"
+            ],
+            "category": "tool",
+            "created_at": "2026-06-09T02:28:17Z",
+            "pushed_at": "2026-09-22T08:02:30Z"
+        },
+        {
+            "full_name": "zvec-ai/zvec-grep",
+            "description": "Local-first search across your workspace, built for humans and AI agents.",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน เอเจนต์ AI, ทำงานออฟไลน์ (เขียนด้วย Rust)",
+            "language": "Rust",
+            "stargazers_count": 3806,
+            "forks_count": 223,
+            "html_url": "https://github.com/zvec-ai/zvec-grep",
+            "topics": [
+                "ai-agents",
+                "bm25",
+                "cli",
+                "code-search",
+                "full-text-search",
+                "local-first",
+                "mcp",
+                "ripgrep",
+                "semantic-search",
+                "vector-search"
+            ],
+            "category": "tool",
+            "created_at": "2026-07-10T02:58:07Z",
+            "pushed_at": "2026-09-26T14:03:48Z"
         },
         {
             "full_name": "jub0t/Concat",
@@ -536,7 +655,9 @@
                 "video-editor",
                 "youtube"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-08-25T18:34:47Z",
+            "pushed_at": "2026-09-27T22:52:14Z"
         },
         {
             "full_name": "tutti-os/tutti",
@@ -568,7 +689,9 @@
                 "shared-context",
                 "vibe-coding"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-12T12:29:05Z",
+            "pushed_at": "2026-09-05T07:16:52Z"
         },
         {
             "full_name": "synthetic-sciences/openscience",
@@ -597,7 +720,9 @@
                 "science",
                 "scientific-computing"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-07-03T15:06:45Z",
+            "pushed_at": "2026-09-27T14:26:30Z"
         },
         {
             "full_name": "superdesigndev/treg",
@@ -620,7 +745,9 @@
                 "registry",
                 "secrets"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-15T13:38:07Z",
+            "pushed_at": "2026-09-28T00:57:08Z"
         },
         {
             "full_name": "TestSprite/testsprite-cli",
@@ -639,7 +766,9 @@
                 "test-automation",
                 "testing"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-06-11T10:44:15Z",
+            "pushed_at": "2026-09-25T00:26:33Z"
         },
         {
             "full_name": "deepseek-ai/deepseek-harness",
@@ -654,12 +783,38 @@
                 "deep-learning"
             ],
             "category": "ai",
-            "description_th": "ชุดเครื่องมือและเฟรมเวิร์กของ DeepSeek สำหรับสร้างและฝึกโมเดล AI"
+            "description_th": "ชุดเครื่องมือและเฟรมเวิร์กของ DeepSeek สำหรับสร้างและฝึกโมเดล AI",
+            "created_at": "2026-08-13T11:56:32Z",
+            "pushed_at": "2026-09-27T15:55:19Z"
+        },
+        {
+            "full_name": "zenbu-labs/terminal-browser",
+            "description": "A browser inside your terminal",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน เทอร์มินัล, เบราว์เซอร์ (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 3483,
+            "forks_count": 160,
+            "html_url": "https://github.com/zenbu-labs/terminal-browser",
+            "topics": [
+                "browser",
+                "claude-code",
+                "claude-code-plugin",
+                "claude-skills",
+                "cli",
+                "codex",
+                "herdr-plugin",
+                "rust",
+                "terminal",
+                "web"
+            ],
+            "category": "tool",
+            "created_at": "2026-07-06T16:31:11Z",
+            "pushed_at": "2026-09-20T22:20:47Z"
         },
         {
             "full_name": "fuxicodex/Fuxi",
             "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
-            "description_th": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
+            "description_th": "โปรเจกต์ AI ด้าน โมเดลภาษาขนาดใหญ่ (LLM), เอเจนต์ AI, ช่วยเขียนโค้ด, เทอร์มินัล (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 3364,
             "forks_count": 227,
@@ -686,7 +841,9 @@
                 "terminal-app",
                 "tui"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-04T07:32:11Z",
+            "pushed_at": "2026-09-24T07:16:30Z"
         },
         {
             "full_name": "Jakubantalik/thinking-orbs",
@@ -704,14 +861,16 @@
                 "ui",
                 "ux"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-07-21T07:01:53Z",
+            "pushed_at": "2026-08-16T08:19:07Z"
         },
         {
             "full_name": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
             "description": "DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
             "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน ซอฟต์แวร์โอเพนซอร์ส (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 3276,
+            "stargazers_count": 3277,
             "forks_count": 121,
             "html_url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
             "topics": [
@@ -725,14 +884,39 @@
                 "floating-widget",
                 "plugin"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-18T03:13:51Z",
+            "pushed_at": "2026-09-26T15:27:41Z"
+        },
+        {
+            "full_name": "chuspeeism/dashi-taskboard",
+            "description": "现代化可灵活嵌入的任务面板，支持 Codex、DeepSeek Harness",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน ซอฟต์แวร์โอเพนซอร์ส (เขียนด้วย JavaScript)",
+            "language": "JavaScript",
+            "stargazers_count": 3245,
+            "forks_count": 469,
+            "html_url": "https://github.com/chuspeeism/dashi-taskboard",
+            "topics": [
+                "claude-code",
+                "cli",
+                "codex",
+                "codex-app",
+                "codex-desktop",
+                "codex-plugin",
+                "dsh",
+                "dsh-plugin",
+                "skills"
+            ],
+            "category": "tool",
+            "created_at": "2026-07-24T14:14:07Z",
+            "pushed_at": "2026-09-26T13:56:12Z"
         },
         {
             "full_name": "AlephAITech/WorkBuddyGuide",
             "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
-            "description_th": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ MCP, เวิร์กโฟลว์, สื่อการเรียนรู้, โอเพนซอร์ส (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 3214,
+            "stargazers_count": 3216,
             "forks_count": 460,
             "html_url": "https://github.com/AlephAITech/WorkBuddyGuide",
             "topics": [
@@ -745,12 +929,14 @@
                 "workbuddy",
                 "workflow"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-07-10T04:13:51Z",
+            "pushed_at": "2026-09-18T15:22:08Z"
         },
         {
             "full_name": "Forward-Future/loopy",
             "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
-            "description_th": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI, เวิร์กโฟลว์, ไลบรารี (เขียนด้วย JavaScript)",
             "language": "JavaScript",
             "stargazers_count": 3157,
             "forks_count": 279,
@@ -763,7 +949,9 @@
                 "codex",
                 "prompt-engineering"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-06-12T14:44:22Z",
+            "pushed_at": "2026-09-11T03:57:03Z"
         },
         {
             "full_name": "0xShug0/audio.cpp",
@@ -795,7 +983,9 @@
                 "vulkan",
                 "yue2"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-06-23T15:40:46Z",
+            "pushed_at": "2026-09-28T01:21:36Z"
         },
         {
             "full_name": "NxcoreAI/EverRoom",
@@ -815,15 +1005,17 @@
                 "obisidian",
                 "typescript"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-08-14T13:13:51Z",
+            "pushed_at": "2026-09-25T19:48:49Z"
         },
         {
             "full_name": "ShawnPana/phone-harness",
             "description": "let your agent control your phone",
-            "description_th": "let your agent control your phone",
+            "description_th": "โปรเจกต์ AI ด้าน เอเจนต์ AI (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 3056,
-            "forks_count": 311,
+            "stargazers_count": 3057,
+            "forks_count": 312,
             "html_url": "https://github.com/ShawnPana/phone-harness",
             "topics": [
                 "agent",
@@ -831,12 +1023,14 @@
                 "automation",
                 "developer-tools"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-07T22:28:53Z",
+            "pushed_at": "2026-09-27T21:45:46Z"
         },
         {
             "full_name": "Tiger3807861189/J-Space-Cognition-Suite",
             "description": "J-Space Cognition Suite — a model-agnostic inference-time control suite for deep reasoning, long-horizon work, verification, and recovery. Based on Anthropic's J-space global workspace research.",
-            "description_th": "J-Space Cognition Suite — a model-agnostic inference-time control suite for deep reasoning, long-horizon work, verification, and recovery. Based on Anthropic's J-space global workspace research.",
+            "description_th": "โปรเจกต์ AI ด้าน ให้บริการโมเดล, โมเดล AI ชั้นนำ (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 3004,
             "forks_count": 224,
@@ -862,7 +1056,9 @@
                 "react",
                 "tailwindcss"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-22T00:34:24Z",
+            "pushed_at": "2026-09-14T03:26:53Z"
         },
         {
             "full_name": "rlaope/oh-my-hermes",
@@ -883,7 +1079,9 @@
                 "hermes-skill",
                 "skills"
             ],
-            "category": "ai"
+            "category": "ai",
+            "created_at": "2026-06-03T13:00:34Z",
+            "pushed_at": "2026-09-28T02:45:45Z"
         },
         {
             "full_name": "Nanako0129/sepia",
@@ -907,7 +1105,9 @@
                 "prompt-engineering",
                 "writing-tools"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-28T05:56:49Z",
+            "pushed_at": "2026-09-23T20:03:22Z"
         },
         {
             "full_name": "heygen-com/hyperframes",
@@ -922,7 +1122,9 @@
                 "media"
             ],
             "category": "ai",
-            "description_th": "เฟรมเวิร์กสร้างวิดีโอด้วย AI ประกอบฉาก แอนิเมชัน และเสียงได้จากโค้ด"
+            "description_th": "เฟรมเวิร์กสร้างวิดีโอด้วย AI ประกอบฉาก แอนิเมชัน และเสียงได้จากโค้ด",
+            "created_at": "2026-03-10T01:51:06Z",
+            "pushed_at": "2026-09-28T03:17:13Z"
         },
         {
             "full_name": "QwenAudio/qwen-audio-agent",
@@ -947,7 +1149,9 @@
                 "voice-ai",
                 "voice-chat"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-27T05:04:26Z",
+            "pushed_at": "2026-09-26T13:45:40Z"
         },
         {
             "full_name": "agentrhq/webcmd",
@@ -966,7 +1170,9 @@
                 "playwright",
                 "self-learning-ai"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-02T11:49:31Z",
+            "pushed_at": "2026-09-25T10:52:17Z"
         },
         {
             "full_name": "simonlin1212/Vibe-Research",
@@ -995,7 +1201,9 @@
                 "trading",
                 "us-stocks"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-07-05T06:30:55Z",
+            "pushed_at": "2026-09-25T10:00:11Z"
         },
         {
             "full_name": "Kuddev/pebrel",
@@ -1024,7 +1232,9 @@
                 "terminal-emulator",
                 "windows"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-05T12:17:36Z",
+            "pushed_at": "2026-09-28T03:15:38Z"
         },
         {
             "full_name": "redhat-et/ripwire",
@@ -1056,7 +1266,9 @@
                 "tree-sitter",
                 "typescript"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-29T15:58:33Z",
+            "pushed_at": "2026-09-28T01:38:32Z"
         },
         {
             "full_name": "lennney/stop-that-shit",
@@ -1083,7 +1295,37 @@
                 "scope-control",
                 "yagni"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-11T15:31:45Z",
+            "pushed_at": "2026-09-24T12:03:32Z"
+        },
+        {
+            "full_name": "mesamirh/MovieBox-Tui",
+            "description": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน เทอร์มินัล (เขียนด้วย Rust)",
+            "language": "Rust",
+            "stargazers_count": 2314,
+            "forks_count": 267,
+            "html_url": "https://github.com/mesamirh/MovieBox-Tui",
+            "topics": [
+                "anime",
+                "cli",
+                "downloader",
+                "iptv",
+                "moviebox",
+                "movies",
+                "mpv",
+                "ratatui",
+                "rust",
+                "series",
+                "streaming",
+                "terminal",
+                "tui",
+                "tv-shows"
+            ],
+            "category": "tool",
+            "created_at": "2026-07-16T07:09:47Z",
+            "pushed_at": "2026-09-27T15:08:13Z"
         },
         {
             "full_name": "zeronsh/zeron",
@@ -1105,12 +1347,14 @@
                 "open-source",
                 "rust"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-20T15:04:04Z",
+            "pushed_at": "2026-09-28T03:11:16Z"
         },
         {
             "full_name": "Pinvou/pinvou-agent",
             "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
-            "description_th": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI, เวิร์กโฟลว์, โอเพนซอร์ส (เขียนด้วย Rust)",
             "language": "Rust",
             "stargazers_count": 2190,
             "forks_count": 310,
@@ -1127,12 +1371,44 @@
                 "rust",
                 "tauri"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-07-24T07:28:41Z",
+            "pushed_at": "2026-09-28T03:10:40Z"
+        },
+        {
+            "full_name": "HUANGCHIHHUNGLeo/claude-real-video",
+            "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน โมเดลภาษาขนาดใหญ่ (LLM), ถอดเสียงเป็นข้อความ, โมเดล AI ชั้นนำ (เขียนด้วย Python)",
+            "language": "Python",
+            "stargazers_count": 2187,
+            "forks_count": 195,
+            "html_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+            "topics": [
+                "claude",
+                "claude-code",
+                "cli",
+                "codex",
+                "codex-cli",
+                "ffmpeg",
+                "keyframe-extraction",
+                "llm",
+                "multimodal",
+                "ocr",
+                "openai-codex",
+                "python",
+                "scene-detection",
+                "transcription",
+                "video-analysis",
+                "whisper"
+            ],
+            "category": "tool",
+            "created_at": "2026-06-30T10:55:02Z",
+            "pushed_at": "2026-09-26T09:09:46Z"
         },
         {
             "full_name": "3441293738/creatorhub",
             "description": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手",
-            "description_th": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ ซอฟต์แวร์โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 2145,
             "forks_count": 399,
@@ -1151,7 +1427,61 @@
                 "web-scraping",
                 "xiaohongshu"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-07-03T08:43:10Z",
+            "pushed_at": "2026-09-28T02:06:39Z"
+        },
+        {
+            "full_name": "zenbu-labs/terminal-code",
+            "description": "VS Code in the terminal",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน เทอร์มินัล (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 2082,
+            "forks_count": 86,
+            "html_url": "https://github.com/zenbu-labs/terminal-code",
+            "topics": [
+                "cli",
+                "herdr-plugin",
+                "terminal",
+                "vscode"
+            ],
+            "category": "tool",
+            "created_at": "2026-08-08T05:35:40Z",
+            "pushed_at": "2026-09-11T18:53:18Z"
+        },
+        {
+            "full_name": "MemTensor/memmy-agent",
+            "description": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.",
+            "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน เอเจนต์ AI, โมเดล AI ชั้นนำ (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 1989,
+            "forks_count": 191,
+            "html_url": "https://github.com/MemTensor/memmy-agent",
+            "topics": [
+                "agent",
+                "agentic-ai",
+                "ai-agents",
+                "chatgpt",
+                "claude-code",
+                "cli",
+                "codex",
+                "cursor",
+                "desktop-app",
+                "desktop-pet",
+                "dsh-plugin",
+                "hermes-agent",
+                "llm",
+                "long-term-memory",
+                "mcp",
+                "memory",
+                "openai-api",
+                "openclaw",
+                "personal-ai",
+                "tui"
+            ],
+            "category": "tool",
+            "created_at": "2026-07-16T07:57:45Z",
+            "pushed_at": "2026-09-24T08:32:55Z"
         },
         {
             "full_name": "eneskirca/nodeterm",
@@ -1183,7 +1513,9 @@
                 "tmux",
                 "workspace-manager"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-15T21:25:13Z",
+            "pushed_at": "2026-09-27T23:30:09Z"
         },
         {
             "full_name": "debpalash/OmniVoice-Studio",
@@ -1198,14 +1530,16 @@
                 "voice"
             ],
             "category": "ai",
-            "description_th": "สตูดิโอสังเคราะห์เสียงพูดและโคลนเสียง (TTS) คุณภาพสูง รองรับหลายภาษา"
+            "description_th": "สตูดิโอสังเคราะห์เสียงพูดและโคลนเสียง (TTS) คุณภาพสูง รองรับหลายภาษา",
+            "created_at": "2026-04-09T21:40:26Z",
+            "pushed_at": "2026-09-27T13:29:55Z"
         },
         {
             "full_name": "memorax-ai/memorax-code",
             "description": "A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains useful in future tasks.",
             "description_th": "เครื่องมือสำหรับนักพัฒนาด้าน ช่วยเขียนโค้ด, ส่วนขยาย (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 1756,
+            "stargazers_count": 1757,
             "forks_count": 67,
             "html_url": "https://github.com/memorax-ai/memorax-code",
             "topics": [
@@ -1217,7 +1551,9 @@
                 "memorax",
                 "typescript"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-01T02:13:37Z",
+            "pushed_at": "2026-09-27T06:05:17Z"
         },
         {
             "full_name": "nklmilojevic/sofka",
@@ -1244,7 +1580,9 @@
                 "sre",
                 "tui"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-01T12:31:02Z",
+            "pushed_at": "2026-09-27T22:56:04Z"
         },
         {
             "full_name": "CodebuffAI/freebuff",
@@ -1259,7 +1597,9 @@
                 "agent"
             ],
             "category": "ai",
-            "description_th": "เอเจนต์ AI เขียนโค้ดแบบฟรี ทำงานอัตโนมัติได้เอง (autonomous coding agent)"
+            "description_th": "เอเจนต์ AI เขียนโค้ดแบบฟรี ทำงานอัตโนมัติได้เอง (autonomous coding agent)",
+            "created_at": "2024-07-09T21:21:56Z",
+            "pushed_at": "2026-09-28T03:03:05Z"
         },
         {
             "full_name": "multica-ai/multica",
@@ -1273,12 +1613,14 @@
                 "multi-agent"
             ],
             "category": "ai",
-            "description_th": "แพลตฟอร์ม AI แบบหลายเอเจนต์ที่ทำงานร่วมกันและประสานงานกันได้"
+            "description_th": "แพลตฟอร์ม AI แบบหลายเอเจนต์ที่ทำงานร่วมกันและประสานงานกันได้",
+            "created_at": "2026-01-13T17:59:46Z",
+            "pushed_at": "2026-09-27T15:00:52Z"
         },
         {
             "full_name": "awlevin/typesafe-computer-use",
             "description": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
-            "description_th": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ อ่านข้อความจากภาพ (OCR) (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 1036,
             "forks_count": 94,
@@ -1291,7 +1633,9 @@
                 "ocr",
                 "typesafe"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-09-16T17:48:45Z",
+            "pushed_at": "2026-09-26T05:39:32Z"
         },
         {
             "full_name": "mikehasa/golive-skill",
@@ -1323,14 +1667,16 @@
                 "supabase",
                 "vercel"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-09-23T13:37:26Z",
+            "pushed_at": "2026-09-27T05:07:13Z"
         },
         {
             "full_name": "jundizhou/easy-stock",
             "description": "A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock",
             "description_th": "เครื่องมือเทรด/การเงินด้าน หุ้น/ข้อมูลตลาด (เขียนด้วย Go)",
             "language": "Go",
-            "stargazers_count": 965,
+            "stargazers_count": 966,
             "forks_count": 53,
             "html_url": "https://github.com/jundizhou/easy-stock",
             "topics": [
@@ -1354,12 +1700,14 @@
                 "trading",
                 "trading-agents"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-08-07T16:25:36Z",
+            "pushed_at": "2026-09-26T16:06:56Z"
         },
         {
             "full_name": "lij768423-svg/grok-register-panel",
             "description": "Grok 批量注册 (Camoufox) + 实时 Web 监控面板 | Batch Grok registration engine with live panel — concurrency · ASN blacklist · proxy pool · token auth",
-            "description_th": "Grok 批量注册 (Camoufox) + 实时 Web 监控面板 | Batch Grok registration engine with live panel — concurrency · ASN blacklist · proxy pool · token auth",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ ค่าเงิน/ฟอเร็กซ์ (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 907,
             "forks_count": 277,
@@ -1378,7 +1726,9 @@
                 "webui",
                 "xai"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-07-29T09:25:01Z",
+            "pushed_at": "2026-09-27T09:13:41Z"
         },
         {
             "full_name": "Continuum-AI-Corp/OrcaRouter-Lite",
@@ -1393,12 +1743,14 @@
                 "router"
             ],
             "category": "ai",
-            "description_th": "ตัวจัดเส้นทางโมเดล AI (LLM router) เลือกโมเดลให้เหมาะกับงานเพื่อประหยัดต้นทุนและเพิ่มความเร็ว"
+            "description_th": "ตัวจัดเส้นทางโมเดล AI (LLM router) เลือกโมเดลให้เหมาะกับงานเพื่อประหยัดต้นทุนและเพิ่มความเร็ว",
+            "created_at": "2026-05-03T00:28:42Z",
+            "pushed_at": "2026-09-24T09:34:44Z"
         },
         {
             "full_name": "browser-use/macos-harness",
             "description": "The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.",
-            "description_th": "The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ โมเดลภาษาขนาดใหญ่ (LLM) (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 889,
             "forks_count": 60,
@@ -1412,12 +1764,14 @@
                 "macos",
                 "python"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-08-17T00:22:20Z",
+            "pushed_at": "2026-08-17T16:48:19Z"
         },
         {
             "full_name": "Dong90/oh-my-taiyiforge",
             "description": "AI workflow automation plugin for intelligent code generation with Claude/Codex",
-            "description_th": "AI workflow automation plugin for intelligent code generation with Claude/Codex",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ โมเดล AI ชั้นนำ, ช่วยเขียนโค้ด, ทำงานอัตโนมัติ, เวิร์กโฟลว์ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 886,
             "forks_count": 23,
@@ -1437,7 +1791,9 @@
                 "typescript",
                 "workflow"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-06-05T02:25:33Z",
+            "pushed_at": "2026-09-28T01:07:56Z"
         },
         {
             "full_name": "MageByte-Zero/spec-superflow",
@@ -1468,12 +1824,14 @@
                 "windsurf",
                 "workflow"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-06-26T05:13:03Z",
+            "pushed_at": "2026-09-24T08:41:05Z"
         },
         {
             "full_name": "88lin/workbuddy-auto-signin",
             "description": "自动领取 WorkBuddy 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
-            "description_th": "自动领取 WorkBuddy 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ ซอฟต์แวร์โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 807,
             "forks_count": 74,
@@ -1485,7 +1843,9 @@
                 "sign-in",
                 "workbuddy"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-08-18T18:53:38Z",
+            "pushed_at": "2026-09-26T13:32:57Z"
         },
         {
             "full_name": "shanraisshan/claude-code-best-practice",
@@ -1500,7 +1860,9 @@
                 "coding"
             ],
             "category": "ai",
-            "description_th": "รวมแนวทางปฏิบัติที่ดีที่สุดและเทคนิคการใช้ Claude Code"
+            "description_th": "รวมแนวทางปฏิบัติที่ดีที่สุดและเทคนิคการใช้ Claude Code",
+            "created_at": "2025-10-31T14:15:28Z",
+            "pushed_at": "2026-09-28T03:14:30Z"
         },
         {
             "full_name": "xingwudao/xquant-beginner",
@@ -1528,7 +1890,9 @@
                 "tutorial",
                 "vitepress"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-09T07:08:36Z",
+            "pushed_at": "2026-09-02T03:05:39Z"
         },
         {
             "full_name": "William-Lu-stack/Flawless",
@@ -1552,12 +1916,14 @@
                 "observability",
                 "sre"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-10T05:57:02Z",
+            "pushed_at": "2026-08-14T09:47:00Z"
         },
         {
             "full_name": "juspay/xyne-spaces",
             "description": "The AI Org-OS — a collaborative platform for humans and agents. Explore: https://spaces.xyne.ai",
-            "description_th": "The AI Org-OS — a collaborative platform for humans and agents. Explore: https://spaces.xyne.ai",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 765,
             "forks_count": 558,
@@ -1569,7 +1935,9 @@
                 "automation",
                 "collaboration"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-08-02T09:37:59Z",
+            "pushed_at": "2026-09-28T02:59:46Z"
         },
         {
             "full_name": "Open-Finance-Lab/AgenticTrading",
@@ -1584,7 +1952,9 @@
                 "finance"
             ],
             "category": "trading",
-            "description_th": "ระบบเทรดอัตโนมัติที่ขับเคลื่อนด้วย AI Agent วิเคราะห์และตัดสินใจซื้อขายเอง"
+            "description_th": "ระบบเทรดอัตโนมัติที่ขับเคลื่อนด้วย AI Agent วิเคราะห์และตัดสินใจซื้อขายเอง",
+            "created_at": "2025-05-21T01:19:12Z",
+            "pushed_at": "2026-09-27T17:54:13Z"
         },
         {
             "full_name": "FujiwaraChoki/MoneyPrinter",
@@ -1599,7 +1969,9 @@
                 "bot"
             ],
             "category": "trading",
-            "description_th": "บอทเทรดอัตโนมัติและเครื่องมือช่วยวิเคราะห์การเงิน"
+            "description_th": "บอทเทรดอัตโนมัติและเครื่องมือช่วยวิเคราะห์การเงิน",
+            "created_at": "2024-01-31T18:53:24Z",
+            "pushed_at": "2026-03-26T22:17:17Z"
         },
         {
             "full_name": "databufflabs/databuff",
@@ -1630,7 +2002,9 @@
                 "sreagent",
                 "tracing"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-18T02:06:27Z",
+            "pushed_at": "2026-09-16T12:38:40Z"
         },
         {
             "full_name": "sandbaseai/sandbase-harness",
@@ -1662,12 +2036,14 @@
                 "sandboxed-execution",
                 "self-hosted"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-11T08:48:07Z",
+            "pushed_at": "2026-09-28T03:03:24Z"
         },
         {
             "full_name": "tiliondev/fortress",
             "description": "Stealth Chromium engine that stops scrapers and browser agents from getting blocked, with one line of code change.",
-            "description_th": "Stealth Chromium engine that stops scrapers and browser agents from getting blocked, with one line of code change.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI, ดึงข้อมูลจากเว็บ, เบราว์เซอร์, เชื่อมต่อแชต (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 664,
             "forks_count": 45,
@@ -1694,12 +2070,14 @@
                 "web-scraping",
                 "webscraping"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-07-02T21:37:18Z",
+            "pushed_at": "2026-07-23T23:54:52Z"
         },
         {
             "full_name": "runvendo/vendo",
             "description": "Embedded agents your customers use to automate work, build views, and connect their tools.",
-            "description_th": "Embedded agents your customers use to automate work, build views, and connect their tools.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI, ทำงานอัตโนมัติ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
             "stargazers_count": 625,
             "forks_count": 108,
@@ -1718,12 +2096,14 @@
                 "sdk",
                 "typescript"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-06-30T06:42:46Z",
+            "pushed_at": "2026-09-11T06:18:57Z"
         },
         {
             "full_name": "livecontext-ai/livecontext-ce",
             "description": "The AI automation platform, self-hosted. Describe the job in chat and LiveContext builds it: readable workflows, scoped AI agents, and small apps your team uses. Chat, Workflow, Agent and App on one canvas.",
-            "description_th": "The AI automation platform, self-hosted. Describe the job in chat and LiveContext builds it: readable workflows, scoped AI agents, and small apps your team uses. Chat, Workflow, Agent and App on one canvas.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เอเจนต์ AI, ทำงานอัตโนมัติ, เวิร์กโฟลว์, ติดตั้งเองได้ (เขียนด้วย Java)",
             "language": "Java",
             "stargazers_count": 593,
             "forks_count": 66,
@@ -1750,7 +2130,9 @@
                 "workflow-engine",
                 "zapier-alternative"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-06-16T15:51:27Z",
+            "pushed_at": "2026-09-26T22:55:47Z"
         },
         {
             "full_name": "simonlin1212/vibe-astock",
@@ -1780,12 +2162,14 @@
                 "trading-dashboard",
                 "typescript"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-07-29T23:40:47Z",
+            "pushed_at": "2026-09-25T09:25:52Z"
         },
         {
             "full_name": "ant-research/AntOmniEvo",
             "description": "An auto-evolution framework that optimizes anything — your 7×24 team of algorithm engineers.",
-            "description_th": "An auto-evolution framework that optimizes anything — your 7×24 team of algorithm engineers.",
+            "description_th": "เครื่องมืออัตโนมัติสำหรับ เฟรมเวิร์ก (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 562,
             "forks_count": 9,
@@ -1799,7 +2183,9 @@
                 "rsi-ai",
                 "self-improvement"
             ],
-            "category": "automation"
+            "category": "automation",
+            "created_at": "2026-09-15T04:33:20Z",
+            "pushed_at": "2026-09-22T07:49:21Z"
         },
         {
             "full_name": "bjarneo/ku",
@@ -1824,7 +2210,9 @@
                 "terminal",
                 "tui"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-13T14:38:25Z",
+            "pushed_at": "2026-09-17T20:22:56Z"
         },
         {
             "full_name": "harry0703/MoneyPrinterTurbo",
@@ -1839,7 +2227,9 @@
                 "bot"
             ],
             "category": "trading",
-            "description_th": "ระบบเทรดอัตโนมัติความเร็วสูงสำหรับตลาดคริปโตและหุ้น"
+            "description_th": "ระบบเทรดอัตโนมัติความเร็วสูงสำหรับตลาดคริปโตและหุ้น",
+            "created_at": "2024-03-11T02:57:34Z",
+            "pushed_at": "2026-09-28T03:17:22Z"
         },
         {
             "full_name": "jim-schwoebel/awesome_ai_agents",
@@ -1853,7 +2243,9 @@
                 "agents"
             ],
             "category": "tool",
-            "description_th": "คลังรวมโปรเจกต์ AI Agent ที่น่าสนใจ คัดสรรและจัดหมวดหมู่ไว้แล้ว"
+            "description_th": "คลังรวมโปรเจกต์ AI Agent ที่น่าสนใจ คัดสรรและจัดหมวดหมู่ไว้แล้ว",
+            "created_at": "2025-01-03T22:37:37Z",
+            "pushed_at": "2026-03-28T08:28:51Z"
         },
         {
             "full_name": "programmersd21/flow",
@@ -1885,7 +2277,9 @@
                 "unixporn",
                 "windows"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-04T10:09:41Z",
+            "pushed_at": "2026-09-24T13:07:38Z"
         },
         {
             "full_name": "Derssa/Torollo",
@@ -1912,7 +2306,9 @@
                 "visualization",
                 "vpc"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-15T19:07:48Z",
+            "pushed_at": "2026-09-24T20:29:27Z"
         },
         {
             "full_name": "LuxAlgo/Vela",
@@ -1932,7 +2328,9 @@
                 "trading",
                 "typescript"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-07-13T16:21:40Z",
+            "pushed_at": "2026-09-25T22:42:28Z"
         },
         {
             "full_name": "mars-tw/anti-gambling-trader-tw",
@@ -1960,7 +2358,9 @@
                 "trading-bot",
                 "us-stock"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-26T02:38:24Z",
+            "pushed_at": "2026-07-22T08:26:31Z"
         },
         {
             "full_name": "soemsri/BotTrade",
@@ -1975,7 +2375,9 @@
                 "bot"
             ],
             "category": "trading",
-            "description_th": "บอทเทรดอัตโนมัติสำหรับคริปโตเคอร์เรนซีและหุ้น"
+            "description_th": "บอทเทรดอัตโนมัติสำหรับคริปโตเคอร์เรนซีและหุ้น",
+            "created_at": "2026-09-21T03:28:17Z",
+            "pushed_at": "2026-09-21T03:33:24Z"
         },
         {
             "full_name": "monarchjuno/tradingcodex",
@@ -1996,7 +2398,9 @@
                 "python",
                 "trading"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-08T13:26:18Z",
+            "pushed_at": "2026-07-24T23:33:00Z"
         },
         {
             "full_name": "Alishahryar1/free-claude-code",
@@ -2011,7 +2415,9 @@
                 "coding"
             ],
             "category": "ai",
-            "description_th": "ทางเลือกโอเพนซอร์สแบบฟรีของ Claude Code CLI"
+            "description_th": "ทางเลือกโอเพนซอร์สแบบฟรีของ Claude Code CLI",
+            "created_at": "2026-01-28T19:02:30Z",
+            "pushed_at": "2026-09-28T02:58:46Z"
         },
         {
             "full_name": "Tencent/teamai-cli",
@@ -2026,7 +2432,9 @@
                 "automation"
             ],
             "category": "automation",
-            "description_th": "เครื่องมือ AI บนบรรทัดคำสั่งจาก Tencent สำหรับการทำงานเป็นทีม"
+            "description_th": "เครื่องมือ AI บนบรรทัดคำสั่งจาก Tencent สำหรับการทำงานเป็นทีม",
+            "created_at": "2026-04-27T09:42:49Z",
+            "pushed_at": "2026-09-28T03:00:33Z"
         },
         {
             "full_name": "tashfeenahmed/freellmapi",
@@ -2041,7 +2449,9 @@
                 "api"
             ],
             "category": "ai",
-            "description_th": "รวม API ของโมเดล LLM ฟรีหลายตัวไว้ใน API เดียว เรียกใช้ได้สะดวก"
+            "description_th": "รวม API ของโมเดล LLM ฟรีหลายตัวไว้ใน API เดียว เรียกใช้ได้สะดวก",
+            "created_at": "2026-04-21T13:38:59Z",
+            "pushed_at": "2026-09-27T18:54:06Z"
         },
         {
             "full_name": "tt-a1i/archify",
@@ -2055,7 +2465,9 @@
                 "design"
             ],
             "category": "tool",
-            "description_th": "เครื่องมือออกแบบและวางสถาปัตยกรรมแอปพลิเคชันด้วย AI"
+            "description_th": "เครื่องมือออกแบบและวางสถาปัตยกรรมแอปพลิเคชันด้วย AI",
+            "created_at": "2026-04-15T05:27:37Z",
+            "pushed_at": "2026-09-28T01:51:57Z"
         },
         {
             "full_name": "Taiquan-Zhou/RunTheRepo",
@@ -2077,7 +2489,9 @@
                 "security-hardening",
                 "software-testing"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-09-02T03:09:44Z",
+            "pushed_at": "2026-09-15T06:04:00Z"
         },
         {
             "full_name": "zsuroy/ctty",
@@ -2101,7 +2515,9 @@
                 "tui",
                 "webdav"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-13T16:21:03Z",
+            "pushed_at": "2026-09-23T16:36:45Z"
         },
         {
             "full_name": "immanuwell/k16s-exam-simulator",
@@ -2124,7 +2540,9 @@
                 "lima-vm",
                 "lxc"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-01T16:58:18Z",
+            "pushed_at": "2026-09-08T10:24:43Z"
         },
         {
             "full_name": "krillinai/OpenCreator",
@@ -2138,7 +2556,9 @@
                 "creation"
             ],
             "category": "tool",
-            "description_th": "ชุดเครื่องมือสร้างคอนเทนต์แบบโอเพนซอร์ส"
+            "description_th": "ชุดเครื่องมือสร้างคอนเทนต์แบบโอเพนซอร์ส",
+            "created_at": "2024-12-17T01:59:22Z",
+            "pushed_at": "2026-09-28T02:51:19Z"
         },
         {
             "full_name": "PastFly/Selective-Remote",
@@ -2166,7 +2586,9 @@
                 "sysadmin",
                 "terminal"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-10T18:07:45Z",
+            "pushed_at": "2026-09-27T22:29:48Z"
         },
         {
             "full_name": "PlatformRelay/Kubernetes-Workshop",
@@ -2188,7 +2610,9 @@
                 "slidev",
                 "workshop"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-03T09:18:10Z",
+            "pushed_at": "2026-09-21T01:00:58Z"
         },
         {
             "full_name": "orbi-build/orbi",
@@ -2214,7 +2638,9 @@
                 "self-hosted",
                 "software-delivery"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-08-24T16:08:33Z",
+            "pushed_at": "2026-09-28T02:04:33Z"
         },
         {
             "full_name": "srelens/srelens",
@@ -2234,7 +2660,9 @@
                 "sre",
                 "tauri"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-06T14:15:14Z",
+            "pushed_at": "2026-09-27T22:12:47Z"
         },
         {
             "full_name": "AndrianBdn/oddk",
@@ -2252,7 +2680,9 @@
                 "postgresql",
                 "postgresql-database"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-06-13T14:37:38Z",
+            "pushed_at": "2026-09-16T13:49:09Z"
         },
         {
             "full_name": "suiyuebaobao/C-SSH",
@@ -2284,7 +2714,9 @@
                 "vue",
                 "windows"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-06T11:18:21Z",
+            "pushed_at": "2026-09-14T06:48:17Z"
         },
         {
             "full_name": "SuchanMadhikarmi/kubernetes-zero-to-production",
@@ -2305,7 +2737,9 @@
                 "kubernetes",
                 "learning"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-31T07:32:53Z",
+            "pushed_at": "2026-08-12T20:38:53Z"
         },
         {
             "full_name": "fossaryhq/catalog",
@@ -2325,7 +2759,9 @@
                 "open-source",
                 "self-hosted"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-09-08T14:30:51Z",
+            "pushed_at": "2026-09-22T07:13:53Z"
         },
         {
             "full_name": "stephrobert/feint",
@@ -2351,7 +2787,9 @@
                 "terraform",
                 "testing"
             ],
-            "category": "tool"
+            "category": "tool",
+            "created_at": "2026-07-29T11:56:25Z",
+            "pushed_at": "2026-09-27T04:30:34Z"
         },
         {
             "full_name": "smartnfe/focusdock",
@@ -2365,7 +2803,9 @@
                 "focus"
             ],
             "category": "tool",
-            "description_th": "ตัวจับเวลาโฟกัสและเครื่องมือช่วยเพิ่มประสิทธิภาพการทำงาน"
+            "description_th": "ตัวจับเวลาโฟกัสและเครื่องมือช่วยเพิ่มประสิทธิภาพการทำงาน",
+            "created_at": "2026-08-13T13:29:33Z",
+            "pushed_at": "2026-08-13T13:34:31Z"
         },
         {
             "full_name": "lunarresearcher/copy",
@@ -2388,7 +2828,9 @@
                 "trading",
                 "tui"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-09-09T03:56:45Z",
+            "pushed_at": "2026-09-09T08:32:04Z"
         },
         {
             "full_name": "agutinbaigo28/trading-backtest-kit",
@@ -2406,7 +2848,9 @@
                 "trading-backtest",
                 "trading-kit"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-07-14T07:04:56Z",
+            "pushed_at": "2026-09-14T08:00:54Z"
         },
         {
             "full_name": "contatomegasign/bybit-trading-api",
@@ -2423,7 +2867,9 @@
                 "trading",
                 "trading-api"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-07-14T08:24:56Z",
+            "pushed_at": "2026-09-14T07:54:51Z"
         },
         {
             "full_name": "Shivfun99/Pulse-Order",
@@ -2445,7 +2891,9 @@
                 "systems-programming",
                 "trading"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-02T20:34:06Z",
+            "pushed_at": "2026-08-31T17:19:45Z"
         },
         {
             "full_name": "zargarkhan1/quorum-alpha-dash",
@@ -2477,7 +2925,9 @@
                 "wti-crude",
                 "xai"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-28T20:42:24Z",
+            "pushed_at": "2026-09-28T00:24:55Z"
         },
         {
             "full_name": "7skooooo/mql5-systems-mirror",
@@ -2496,7 +2946,9 @@
                 "trading",
                 "vscode"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-28T20:21:52Z",
+            "pushed_at": "2026-09-28T00:27:41Z"
         },
         {
             "full_name": "simonro/edge-scanner",
@@ -2524,7 +2976,9 @@
                 "typescript",
                 "websocket"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-09-19T21:23:46Z",
+            "pushed_at": "2026-09-27T11:03:47Z"
         },
         {
             "full_name": "thx0701/openclaw-virtual-office",
@@ -2538,7 +2992,9 @@
                 "office"
             ],
             "category": "tool",
-            "description_th": "พื้นที่ทำงานและห้องทำงานเสมือนจริงสำหรับการทำงานร่วมกันเป็นทีม"
+            "description_th": "พื้นที่ทำงานและห้องทำงานเสมือนจริงสำหรับการทำงานร่วมกันเป็นทีม",
+            "created_at": "2026-02-28T17:37:59Z",
+            "pushed_at": "2026-03-01T07:03:18Z"
         },
         {
             "full_name": "QuantiaAI/helm-agents",
@@ -2570,7 +3026,9 @@
                 "trading-signals",
                 "us-stocks"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-23T15:42:53Z",
+            "pushed_at": "2026-06-23T18:41:41Z"
         },
         {
             "full_name": "Signal-Execution-Labs/mexc-future-agent",
@@ -2588,7 +3046,9 @@
                 "mexc",
                 "trading"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-09T12:05:37Z",
+            "pushed_at": "2026-09-14T08:00:04Z"
         },
         {
             "full_name": "signalbetorg/crypto-signal",
@@ -2608,7 +3068,9 @@
                 "trading-signal",
                 "upbit"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-06-15T06:47:24Z",
+            "pushed_at": "2026-09-14T07:55:40Z"
         },
         {
             "full_name": "Osmantic/ODS",
@@ -2622,7 +3084,9 @@
                 "server"
             ],
             "category": "tool",
-            "description_th": "เซิร์ฟเวอร์ AI ครบวงจรในตัวเดียว รวม Ollama, OpenWebUI, n8n และ ComfyUI"
+            "description_th": "เซิร์ฟเวอร์ AI ครบวงจรในตัวเดียว รวม Ollama, OpenWebUI, n8n และ ComfyUI",
+            "created_at": "2026-02-09T13:14:58Z",
+            "pushed_at": "2026-09-28T02:58:37Z"
         },
         {
             "full_name": "OnlyTerp/papertrench",
@@ -2642,7 +3106,9 @@
                 "trading",
                 "trading-journal"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-08-01T12:30:52Z",
+            "pushed_at": "2026-09-24T22:55:06Z"
         },
         {
             "full_name": "LuxAlgo/luxalgo-mcp-server",
@@ -2663,7 +3129,9 @@
                 "research",
                 "trading"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-08-10T18:15:49Z",
+            "pushed_at": "2026-09-24T20:00:14Z"
         },
         {
             "full_name": "simonro/Trading-Journal-AI",
@@ -2691,7 +3159,9 @@
                 "trading-journal",
                 "trading-tools"
             ],
-            "category": "trading"
+            "category": "trading",
+            "created_at": "2026-09-06T23:58:23Z",
+            "pushed_at": "2026-09-24T16:35:30Z"
         }
     ]
 }

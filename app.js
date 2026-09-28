@@ -36,6 +36,19 @@ const categoryLabels = {
 };
 
 // ---------- Utilities ----------
+function timeAgo(iso) {
+    if (!iso) return '';
+    const t = Date.parse(iso);
+    if (isNaN(t)) return '';
+    const days = Math.floor((Date.now() - t) / 86400000);
+    if (days <= 0) return 'วันนี้';
+    if (days === 1) return 'เมื่อวาน';
+    if (days < 30) return days + ' วันก่อน';
+    const months = Math.floor(days / 30);
+    if (months < 12) return months + ' เดือนก่อน';
+    return Math.floor(months / 12) + ' ปีก่อน';
+}
+
 function esc(s) {
     return String(s == null ? '' : s)
         .replace(/&/g, '&amp;')
@@ -161,6 +174,7 @@ function renderRepos() {
         const descEn = repo.description || '';
         const name = repo.full_name;
         const shareTitle = name + ' — ' + desc;
+        const pushed = timeAgo(repo.pushed_at);
         
         return `
         <div class="repo-card" data-category="${category}" data-name="${name.toLowerCase()}" data-stars="${repo.stargazers_count || 0}">
@@ -170,10 +184,11 @@ function renderRepos() {
                 <span class="repo-lang">${lang}</span>
             </div>
             <p class="repo-desc">${esc(desc)}</p>
-            ${descEn ? `<p class="repo-desc-en">${esc(descEn)}</p>` : ''}
+            ${descEn && descEn !== desc ? `<p class="repo-desc-en">${esc(descEn)}</p>` : ''}
             <div class="repo-meta">
                 <span class="stars">⭐ ${stars}</span>
                 <span>🍴 ${forks}</span>
+                ${pushed ? `<span class="repo-age" title="อัปเดตล่าสุด ${esc(repo.pushed_at)}">🕒 ${esc(pushed)}</span>` : ''}
                 <div class="repo-share">
                     <button class="mini-share mini-fb" data-share="facebook" data-url="${esc(repo.html_url)}" data-title="${esc(shareTitle)}" title="แชร์ไป Facebook" aria-label="แชร์ไป Facebook">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.7-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
@@ -231,6 +246,13 @@ function applySort() {
             break;
         case 'name-desc':
             filteredRepos.sort((a, b) => b.full_name.localeCompare(a.full_name));
+            break;
+        case 'pushed-desc':
+            // ISO string เทียบแบบข้อความได้ตรง ๆ; ตัวที่ไม่มีวันที่จะไปอยู่ท้าย
+            filteredRepos.sort((a, b) => (b.pushed_at || '').localeCompare(a.pushed_at || ''));
+            break;
+        case 'created-desc':
+            filteredRepos.sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''));
             break;
     }
     

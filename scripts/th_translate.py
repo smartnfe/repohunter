@@ -88,6 +88,14 @@ GLOSSARY = [
     (r'\bfree\b', 'ฟรี'),
 ]
 
+THAI_RE = re.compile(r'[\u0E00-\u0E7F]')
+
+
+def has_thai(text):
+    """มีอักษรไทยอยู่ในข้อความไหม"""
+    return bool(THAI_RE.search(text or ''))
+
+
 CATEGORY_LABEL = {
     'ai': 'โปรเจกต์ AI ด้าน',
     'automation': 'เครื่องมืออัตโนมัติสำหรับ',
@@ -103,6 +111,10 @@ def translate_th(description, language=None, category=None):
     """แปลงคำอธิบายอังกฤษเป็นไทยคร่าว ๆ"""
     desc = (description or '').strip()
     label = CATEGORY_LABEL.get(category or '', 'โปรเจกต์โอเพนซอร์สด้าน')
+
+    # เจ้าของ repo เขียนคำอธิบายไทยไว้เองแล้ว -> ใช้ของเดิมได้เลย
+    if has_thai(desc):
+        return desc
 
     concepts = []
     if desc:

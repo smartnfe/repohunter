@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-from th_translate import translate_th
+from th_translate import translate_th, has_thai
 
 # anchor กับ root ของ repo — รันจาก cwd ไหนก็ได้
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -45,13 +45,17 @@ def load_json(path, default=None):
 
 
 def build_th_map():
-    """รวบรวม description_th เดิมจากทั้ง repos.json และ curated.json"""
+    """รวบรวม description_th เดิมจากทั้ง repos.json และ curated.json
+
+    เก็บเฉพาะรายการที่มีอักษรไทยจริง — ค่าที่เป็นอังกฤษล้วนคือ fallback เก่า
+    ต้องปล่อยให้แปลใหม่ ไม่ใช่ยึดติดไว้ตลอดไป
+    """
     th = {}
     for path in (OUT, CURATED):
         data = load_json(path) or {}
         for r in data.get('repos', []):
             name = r.get('full_name')
-            if name and r.get('description_th'):
+            if name and has_thai(r.get('description_th')):
                 th[name] = r['description_th']
     return th
 
@@ -70,7 +74,30 @@ def norm(repo, category, th_map):
         'html_url': repo.get('html_url', 'https://github.com/' + name),
         'topics': repo.get('topics', []),
         'category': category,
+        'created_at': repo.get('created_at') or '',
+        'pushed_at': repo.get('pushed_at') or '',
     }
+
+
+def backfill_dates(repos, headers):
+    """เติมวันที่ให้รายการเก่าที่ยังไม่มีข้อมูล (หยุดเมื่อติด rate limit แล้วไปต่อรอบหน้า)"""
+    need = [r for r in repos if not r.get('pushed_at')]
+    if not need:
+        return 0
+    print('backfilling dates for %d repos...' % len(need))
+    done = 0
+    for r in need:
+        try:
+            d = fetch('https://api.github.com/repos/' + r['full_name'], headers)
+        except Exception as e:
+            print('  stop backfill (%d/%d): %s' % (done, len(need), e))
+            break
+        r['created_at'] = d.get('created_at') or ''
+        r['pushed_at'] = d.get('pushed_at') or ''
+        done += 1
+        time.sleep(0.3)
+    print('  backfilled %d/%d' % (done, len(need)))
+    return done
 
 
 def fetch(url, headers):
@@ -116,7 +143,7 @@ def main():
         name = repo['full_name']
         rec = norm(repo, category, th_map)
         old = known.get(name)
-        if old and old.get('description_th'):
+        if old and has_thai(old.get('description_th')):
             rec['description_th'] = old['description_th']
         if name not in known:
             fresh_names.append(name)
@@ -159,6 +186,19 @@ def main():
 
     fetched = list(known.values())
     repos = curated + fetched
+
+    backfill_dates(repos, headers)
+
+    # ซ่อมคำแปลที่ยังค้างเป็นอังกฤษ (fallback จากรอบก่อนที่ยังไม่มีตัวแปล)
+    fixed = 0
+    for r in repos:
+        if not has_thai(r.get('description_th')):
+            r['description_th'] = translate_th(
+                r.get('description'), r.get('language'), r.get('category'))
+            fixed += 1
+    if fixed:
+        print('re-translated: %d repos that had no Thai' % fixed)
+
     repos.sort(key=lambda r: r.get('stargazers_count', 0), reverse=True)
 
     now = datetime.now(timezone.utc)
