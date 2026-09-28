@@ -1,0 +1,337 @@
+{
+    "_meta": {
+        "last_update": "2026-09-28",
+        "sources": [
+            "LINE Memo",
+            "github.com/search"
+        ],
+        "total_repos": 22,
+        "next_fetch": "2026-09-29T08:00:00Z",
+        "th_descriptions": 22
+    },
+    "repos": [
+        {
+            "full_name": "microsoft/PowerToys",
+            "description": "PowerToys - Windows utilities for productivity",
+            "language": "C#",
+            "stargazers_count": 110000,
+            "forks_count": 6800,
+            "html_url": "https://github.com/microsoft/PowerToys",
+            "topics": [
+                "windows",
+                "utilities",
+                "productivity"
+            ],
+            "category": "tool",
+            "description_th": "ชุดเครื่องมือฟรีจาก Microsoft สำหรับปรับแต่งและเพิ่มความสะดวกในการใช้ Windows เช่น จัดหน้าต่าง ครอบหน้าจอ คัดลอกสี และอื่น ๆ อีกมาก"
+        },
+        {
+            "full_name": "vercel-labs/agent-browser",
+            "description": "AI browser automation agent by Vercel Labs",
+            "language": "TypeScript",
+            "stargazers_count": 12500,
+            "forks_count": 980,
+            "html_url": "https://github.com/vercel-labs/agent-browser",
+            "topics": [
+                "ai",
+                "automation",
+                "browser"
+            ],
+            "category": "automation",
+            "description_th": "เอเจนต์ AI สำหรับควบคุมเบราว์เซอร์อัตโนมัติจาก Vercel Labs สั่งงานเว็บด้วยภาษาธรรมชาติได้"
+        },
+        {
+            "full_name": "deepseek-ai/deepseek-harness",
+            "description": "DeepSeek AI harness/framework",
+            "language": "Python",
+            "stargazers_count": 3500,
+            "forks_count": 320,
+            "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+            "topics": [
+                "ai",
+                "ml",
+                "deep-learning"
+            ],
+            "category": "ai",
+            "description_th": "ชุดเครื่องมือและเฟรมเวิร์กของ DeepSeek สำหรับสร้างและฝึกโมเดล AI"
+        },
+        {
+            "full_name": "heygen-com/hyperframes",
+            "description": "Video framework for AI-generated video",
+            "language": "TypeScript",
+            "stargazers_count": 2800,
+            "forks_count": 210,
+            "html_url": "https://github.com/heygen-com/hyperframes",
+            "topics": [
+                "ai",
+                "video",
+                "media"
+            ],
+            "category": "ai",
+            "description_th": "เฟรมเวิร์กสร้างวิดีโอด้วย AI ประกอบฉาก แอนิเมชัน และเสียงได้จากโค้ด"
+        },
+        {
+            "full_name": "debpalash/OmniVoice-Studio",
+            "description": "OmniVoice Studio - TTS/voice cloning",
+            "language": "Python",
+            "stargazers_count": 1800,
+            "forks_count": 150,
+            "html_url": "https://github.com/debpalash/OmniVoice-Studio",
+            "topics": [
+                "ai",
+                "tts",
+                "voice"
+            ],
+            "category": "ai",
+            "description_th": "สตูดิโอสังเคราะห์เสียงพูดและโคลนเสียง (TTS) คุณภาพสูง รองรับหลายภาษา"
+        },
+        {
+            "full_name": "CodebuffAI/freebuff",
+            "description": "Free AI coding agent (Freebuff)",
+            "language": "Python",
+            "stargazers_count": 1500,
+            "forks_count": 180,
+            "html_url": "https://github.com/CodebuffAI/freebuff",
+            "topics": [
+                "ai",
+                "coding",
+                "agent"
+            ],
+            "category": "ai",
+            "description_th": "เอเจนต์ AI เขียนโค้ดแบบฟรี ทำงานอัตโนมัติได้เอง (autonomous coding agent)"
+        },
+        {
+            "full_name": "multica-ai/multica",
+            "description": "Multica AI platform - multi-agent collaboration",
+            "language": "Python",
+            "stargazers_count": 1200,
+            "forks_count": 130,
+            "html_url": "https://github.com/multica-ai/multica",
+            "topics": [
+                "ai",
+                "multi-agent"
+            ],
+            "category": "ai",
+            "description_th": "แพลตฟอร์ม AI แบบหลายเอเจนต์ที่ทำงานร่วมกันและประสานงานกันได้"
+        },
+        {
+            "full_name": "Continuum-AI-Corp/OrcaRouter-Lite",
+            "description": "AI model router (OrcaRouter)",
+            "language": "Python",
+            "stargazers_count": 900,
+            "forks_count": 90,
+            "html_url": "https://github.com/Continuum-AI-Corp/OrcaRouter-Lite",
+            "topics": [
+                "ai",
+                "llm",
+                "router"
+            ],
+            "category": "ai",
+            "description_th": "ตัวจัดเส้นทางโมเดล AI (LLM router) เลือกโมเดลให้เหมาะกับงานเพื่อประหยัดต้นทุนและเพิ่มความเร็ว"
+        },
+        {
+            "full_name": "shanraisshan/claude-code-best-practice",
+            "description": "Claude Code best practices",
+            "language": "Markdown",
+            "stargazers_count": 800,
+            "forks_count": 120,
+            "html_url": "https://github.com/shanraisshan/claude-code-best-practice",
+            "topics": [
+                "ai",
+                "claude",
+                "coding"
+            ],
+            "category": "ai",
+            "description_th": "รวมแนวทางปฏิบัติที่ดีที่สุดและเทคนิคการใช้ Claude Code"
+        },
+        {
+            "full_name": "Open-Finance-Lab/AgenticTrading",
+            "description": "Agentic trading system",
+            "language": "Python",
+            "stargazers_count": 750,
+            "forks_count": 150,
+            "html_url": "https://github.com/Open-Finance-Lab/AgenticTrading",
+            "topics": [
+                "trading",
+                "ai",
+                "finance"
+            ],
+            "category": "trading",
+            "description_th": "ระบบเทรดอัตโนมัติที่ขับเคลื่อนด้วย AI Agent วิเคราะห์และตัดสินใจซื้อขายเอง"
+        },
+        {
+            "full_name": "FujiwaraChoki/MoneyPrinter",
+            "description": "MoneyPrinter - automated trading bot",
+            "language": "Python",
+            "stargazers_count": 700,
+            "forks_count": 200,
+            "html_url": "https://github.com/FujiwaraChoki/MoneyPrinter",
+            "topics": [
+                "trading",
+                "finance",
+                "bot"
+            ],
+            "category": "trading",
+            "description_th": "บอทเทรดอัตโนมัติและเครื่องมือช่วยวิเคราะห์การเงิน"
+        },
+        {
+            "full_name": "harry0703/MoneyPrinterTurbo",
+            "description": "MoneyPrinterTurbo - fast trading system",
+            "language": "Python",
+            "stargazers_count": 500,
+            "forks_count": 120,
+            "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+            "topics": [
+                "trading",
+                "finance",
+                "bot"
+            ],
+            "category": "trading",
+            "description_th": "ระบบเทรดอัตโนมัติความเร็วสูงสำหรับตลาดคริปโตและหุ้น"
+        },
+        {
+            "full_name": "soemsri/BotTrade",
+            "description": "BotTrade - automated trading bot",
+            "language": "Python",
+            "stargazers_count": 400,
+            "forks_count": 100,
+            "html_url": "https://github.com/soemsri/BotTrade",
+            "topics": [
+                "trading",
+                "crypto",
+                "bot"
+            ],
+            "category": "trading",
+            "description_th": "บอทเทรดอัตโนมัติสำหรับคริปโตเคอร์เรนซีและหุ้น"
+        },
+        {
+            "full_name": "jim-schwoebel/awesome_ai_agents",
+            "description": "Awesome AI Agents curated list",
+            "language": "Markdown",
+            "stargazers_count": 500,
+            "forks_count": 80,
+            "html_url": "https://github.com/jim-schwoebel/awesome_ai_agents",
+            "topics": [
+                "ai",
+                "agents"
+            ],
+            "category": "tool",
+            "description_th": "คลังรวมโปรเจกต์ AI Agent ที่น่าสนใจ คัดสรรและจัดหมวดหมู่ไว้แล้ว"
+        },
+        {
+            "full_name": "Alishahryar1/free-claude-code",
+            "description": "Free Claude Code CLI",
+            "language": "Python",
+            "stargazers_count": 350,
+            "forks_count": 80,
+            "html_url": "https://github.com/Alishahryar1/free-claude-code",
+            "topics": [
+                "ai",
+                "claude",
+                "coding"
+            ],
+            "category": "ai",
+            "description_th": "ทางเลือกโอเพนซอร์สแบบฟรีของ Claude Code CLI"
+        },
+        {
+            "full_name": "Tencent/teamai-cli",
+            "description": "Tencent TeamAI CLI",
+            "language": "Go",
+            "stargazers_count": 300,
+            "forks_count": 50,
+            "html_url": "https://github.com/Tencent/teamai-cli",
+            "topics": [
+                "ai",
+                "cli",
+                "automation"
+            ],
+            "category": "automation",
+            "description_th": "เครื่องมือ AI บนบรรทัดคำสั่งจาก Tencent สำหรับการทำงานเป็นทีม"
+        },
+        {
+            "full_name": "tashfeenahmed/freellmapi",
+            "description": "Free LLM API aggregator",
+            "language": "Python",
+            "stargazers_count": 280,
+            "forks_count": 60,
+            "html_url": "https://github.com/tashfeenahmed/freellmapi",
+            "topics": [
+                "ai",
+                "llm",
+                "api"
+            ],
+            "category": "ai",
+            "description_th": "รวม API ของโมเดล LLM ฟรีหลายตัวไว้ใน API เดียว เรียกใช้ได้สะดวก"
+        },
+        {
+            "full_name": "tt-a1i/archify",
+            "description": "Archify - AI app design tool",
+            "language": "TypeScript",
+            "stargazers_count": 250,
+            "forks_count": 40,
+            "html_url": "https://github.com/tt-a1i/archify",
+            "topics": [
+                "ai",
+                "design"
+            ],
+            "category": "tool",
+            "description_th": "เครื่องมือออกแบบและวางสถาปัตยกรรมแอปพลิเคชันด้วย AI"
+        },
+        {
+            "full_name": "krillinai/OpenCreator",
+            "description": "OpenCreator - content creation toolkit",
+            "language": "JavaScript",
+            "stargazers_count": 200,
+            "forks_count": 30,
+            "html_url": "https://github.com/krillinai/OpenCreator",
+            "topics": [
+                "content",
+                "creation"
+            ],
+            "category": "tool",
+            "description_th": "ชุดเครื่องมือสร้างคอนเทนต์แบบโอเพนซอร์ส"
+        },
+        {
+            "full_name": "smartnfe/focusdock",
+            "description": "FocusDock - smart focus timer",
+            "language": "TypeScript",
+            "stargazers_count": 150,
+            "forks_count": 20,
+            "html_url": "https://github.com/smartnfe/focusdock",
+            "topics": [
+                "productivity",
+                "focus"
+            ],
+            "category": "tool",
+            "description_th": "ตัวจับเวลาโฟกัสและเครื่องมือช่วยเพิ่มประสิทธิภาพการทำงาน"
+        },
+        {
+            "full_name": "thx0701/openclaw-virtual-office",
+            "description": "OpenClaw Virtual Office",
+            "language": "TypeScript",
+            "stargazers_count": 100,
+            "forks_count": 15,
+            "html_url": "https://github.com/thx0701/openclaw-virtual-office",
+            "topics": [
+                "productivity",
+                "office"
+            ],
+            "category": "tool",
+            "description_th": "พื้นที่ทำงานและห้องทำงานเสมือนจริงสำหรับการทำงานร่วมกันเป็นทีม"
+        },
+        {
+            "full_name": "Osmantic/ODS",
+            "description": "Open Data Server - AI server suite",
+            "language": "Docker",
+            "stargazers_count": 80,
+            "forks_count": 30,
+            "html_url": "https://github.com/Osmantic/ODS",
+            "topics": [
+                "ai",
+                "server"
+            ],
+            "category": "tool",
+            "description_th": "เซิร์ฟเวอร์ AI ครบวงจรในตัวเดียว รวม Ollama, OpenWebUI, n8n และ ComfyUI"
+        }
+    ]
+}
