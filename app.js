@@ -3,6 +3,7 @@
 const API_BASE = ''; // Relative to current page
 let allRepos = [];
 let filteredRepos = [];
+let repoMeta = {};
 
 // Category mapping based on repo description/name
 function getCategory(repo) {
@@ -39,7 +40,9 @@ async function fetchRepos() {
     try {
         const response = await fetch('/data/repos.json');
         if (!response.ok) throw new Error('Failed to fetch');
-        allRepos = await response.json();
+        const data = await response.json();
+        allRepos = data.repos || [];
+        repoMeta = data._meta || {};
         filteredRepos = [...allRepos];
         updateStats();
         renderRepos();
@@ -59,7 +62,7 @@ function updateStats() {
     document.getElementById('total-stars').textContent = totalStars.toLocaleString();
     
     // Update last update time from JSON metadata
-    const meta = allRepos._meta || {};
+    const meta = repoMeta || {};
     const lastUpdate = meta.last_update || new Date().toLocaleDateString('th-TH');
     document.getElementById('last-update').textContent = lastUpdate;
 }
