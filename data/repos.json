@@ -1,6 +1,6 @@
 {
     "_meta": {
-        "last_update": "2026-10-18",
+        "last_update": "2026-10-19",
         "sources": [
             "LINE Memo (curated)",
             "github.com/search"
@@ -8,8 +8,8 @@
         "total_repos": 157,
         "curated_count": 22,
         "fetched_count": 135,
-        "new_this_run": 2,
-        "next_fetch": "2026-10-19T12:29:53Z"
+        "new_this_run": 0,
+        "next_fetch": "2026-10-20T15:21:14Z"
     },
     "repos": [
         {
@@ -51,15 +51,39 @@
             "category": "tool",
             "description_th": "ชุดเครื่องมือฟรีจาก Microsoft สำหรับปรับแต่งและเพิ่มความสะดวกในการใช้ Windows เช่น จัดหน้าต่าง ครอบหน้าจอ คัดลอกสี และอื่น ๆ อีกมาก",
             "created_at": "2019-05-01T17:44:02Z",
-            "pushed_at": "2026-10-18T08:25:12Z"
+            "pushed_at": "2026-10-19T14:58:49Z"
+        },
+        {
+            "full_name": "Ebony-Vinyl/dsh-our-free-model",
+            "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+            "description_th": "เครื่องมือนักพัฒนา — ส่วนขยาย · API · ฟรี (เขียนด้วย JavaScript)",
+            "language": "JavaScript",
+            "stargazers_count": 27249,
+            "forks_count": 580,
+            "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+            "topics": [
+                "ai-agents",
+                "deepseek",
+                "deepseek-harness",
+                "developer-tools",
+                "dsh",
+                "dsh-plugin",
+                "free-model",
+                "llm",
+                "model-provider",
+                "openai-compatible"
+            ],
+            "category": "tool",
+            "created_at": "2026-09-24T16:17:19Z",
+            "pushed_at": "2026-10-19T08:50:17Z"
         },
         {
             "full_name": "guillaumemeyer/watermarks-remover",
             "description": "A privacy-first app that strips AI watermarks from content you own.",
             "description_th": "โปรเจกต์ AI โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 24355,
-            "forks_count": 2793,
+            "stargazers_count": 24435,
+            "forks_count": 2803,
             "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
             "topics": [
                 "agent-skill",
@@ -83,36 +107,12 @@
             "pushed_at": "2026-10-17T05:30:08Z"
         },
         {
-            "full_name": "Ebony-Vinyl/dsh-our-free-model",
-            "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-            "description_th": "เครื่องมือนักพัฒนา — ส่วนขยาย · API · ฟรี (เขียนด้วย JavaScript)",
-            "language": "JavaScript",
-            "stargazers_count": 23770,
-            "forks_count": 511,
-            "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-            "topics": [
-                "ai-agents",
-                "deepseek",
-                "deepseek-harness",
-                "developer-tools",
-                "dsh",
-                "dsh-plugin",
-                "free-model",
-                "llm",
-                "model-provider",
-                "openai-compatible"
-            ],
-            "category": "tool",
-            "created_at": "2026-09-24T16:17:19Z",
-            "pushed_at": "2026-10-18T06:42:26Z"
-        },
-        {
             "full_name": "hypit-ai/hypit",
             "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
             "description_th": "โปรเจกต์ AI — เอเจนต์ AI · เวิร์กโฟลว์ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 23346,
-            "forks_count": 2719,
+            "stargazers_count": 23876,
+            "forks_count": 2837,
             "html_url": "https://github.com/hypit-ai/hypit",
             "topics": [
                 "agentic-ai",
@@ -138,7 +138,7 @@
             ],
             "category": "ai",
             "created_at": "2026-07-29T18:49:19Z",
-            "pushed_at": "2026-10-15T08:45:06Z"
+            "pushed_at": "2026-10-19T03:45:35Z"
         },
         {
             "full_name": "lidge-jun/opencodex",
@@ -179,7 +179,7 @@
             "description": "Multiplayer agent harness for work.",
             "description_th": "โปรเจกต์ AI — เอเจนต์ AI (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 15438,
+            "stargazers_count": 15449,
             "forks_count": 1913,
             "html_url": "https://github.com/yc-software/qm",
             "topics": [
@@ -190,7 +190,7 @@
             ],
             "category": "ai",
             "created_at": "2026-07-29T20:03:08Z",
-            "pushed_at": "2026-10-17T18:43:22Z"
+            "pushed_at": "2026-10-19T05:12:33Z"
         },
         {
             "full_name": "XiaomiMiMo/MiMo-Code",
@@ -226,7 +226,7 @@
             "category": "automation",
             "description_th": "เอเจนต์ AI สำหรับควบคุมเบราว์เซอร์อัตโนมัติจาก Vercel Labs สั่งงานเว็บด้วยภาษาธรรมชาติได้",
             "created_at": "2026-01-11T05:38:15Z",
-            "pushed_at": "2026-10-18T09:47:53Z"
+            "pushed_at": "2026-10-18T21:47:55Z"
         },
         {
             "full_name": "cobusgreyling/loop-engineering",
@@ -357,8 +357,8 @@
             "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
             "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · โมเดล AI ชั้นนำ · ช่วยเขียนโค้ด (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 10358,
-            "forks_count": 907,
+            "stargazers_count": 10435,
+            "forks_count": 915,
             "html_url": "https://github.com/trailhq/Trail-Code",
             "topics": [
                 "ai-agents",
@@ -381,15 +381,36 @@
             ],
             "category": "tool",
             "created_at": "2026-07-03T13:44:21Z",
-            "pushed_at": "2026-10-18T11:33:26Z"
+            "pushed_at": "2026-10-19T15:07:02Z"
+        },
+        {
+            "full_name": "TencentCloud/Octop",
+            "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+            "description_th": "โปรเจกต์ AI — ระบบหลายเอเจนต์ · เอเจนต์ AI · ติดตั้งเองได้ (เขียนด้วย Python)",
+            "language": "Python",
+            "stargazers_count": 10195,
+            "forks_count": 1294,
+            "html_url": "https://github.com/TencentCloud/Octop",
+            "topics": [
+                "agent",
+                "agentic-ai",
+                "ai",
+                "ai-agent",
+                "ai-agents",
+                "local-first",
+                "long-term-memory"
+            ],
+            "category": "ai",
+            "created_at": "2026-07-08T12:54:20Z",
+            "pushed_at": "2026-10-19T13:16:10Z"
         },
         {
             "full_name": "genspark-ai/genoffice",
             "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
             "description_th": "โปรเจกต์ AI — เอเจนต์ AI · โมเดล AI ชั้นนำ · เครื่องมือบรรทัดคำสั่ง · จดโน้ต/ฐานความรู้ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 9929,
-            "forks_count": 1266,
+            "stargazers_count": 10022,
+            "forks_count": 1274,
             "html_url": "https://github.com/genspark-ai/genoffice",
             "topics": [
                 "ai",
@@ -415,7 +436,7 @@
             ],
             "category": "ai",
             "created_at": "2026-07-31T09:40:58Z",
-            "pushed_at": "2026-10-18T08:08:39Z"
+            "pushed_at": "2026-10-19T14:47:18Z"
         },
         {
             "full_name": "trailhq/Graft",
@@ -449,33 +470,12 @@
             "pushed_at": "2026-10-12T05:18:47Z"
         },
         {
-            "full_name": "TencentCloud/Octop",
-            "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-            "description_th": "โปรเจกต์ AI — ระบบหลายเอเจนต์ · เอเจนต์ AI · ติดตั้งเองได้ (เขียนด้วย Python)",
-            "language": "Python",
-            "stargazers_count": 9838,
-            "forks_count": 1265,
-            "html_url": "https://github.com/TencentCloud/Octop",
-            "topics": [
-                "agent",
-                "agentic-ai",
-                "ai",
-                "ai-agent",
-                "ai-agents",
-                "local-first",
-                "long-term-memory"
-            ],
-            "category": "ai",
-            "created_at": "2026-07-08T12:54:20Z",
-            "pushed_at": "2026-10-18T12:05:33Z"
-        },
-        {
             "full_name": "KKKKhazix/AIHOT",
             "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
             "description_th": "โปรเจกต์ AI โอเพนซอร์ส (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 7991,
-            "forks_count": 1938,
+            "stargazers_count": 8077,
+            "forks_count": 1962,
             "html_url": "https://github.com/KKKKhazix/AIHOT",
             "topics": [
                 "ai",
@@ -493,15 +493,15 @@
             ],
             "category": "ai",
             "created_at": "2026-09-28T23:40:05Z",
-            "pushed_at": "2026-10-17T19:33:38Z"
+            "pushed_at": "2026-10-19T14:39:23Z"
         },
         {
             "full_name": "elder-plinius/T3MP3ST",
             "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
             "description_th": "โปรเจกต์ AI — ระบบหลายเอเจนต์ · เอเจนต์ AI · ความปลอดภัย (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 6555,
-            "forks_count": 1364,
+            "stargazers_count": 6563,
+            "forks_count": 1367,
             "html_url": "https://github.com/elder-plinius/T3MP3ST",
             "topics": [
                 "agents",
@@ -519,8 +519,8 @@
             "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
             "description_th": "เครื่องมืออัตโนมัติ — เอเจนต์ AI · MCP · เครื่องมือบรรทัดคำสั่ง · SDK (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 6040,
-            "forks_count": 558,
+            "stargazers_count": 6049,
+            "forks_count": 564,
             "html_url": "https://github.com/oomol-lab/open-connector",
             "topics": [
                 "agent-tools",
@@ -544,15 +544,15 @@
             ],
             "category": "automation",
             "created_at": "2026-06-29T10:49:36Z",
-            "pushed_at": "2026-10-18T03:21:51Z"
+            "pushed_at": "2026-10-19T09:31:14Z"
         },
         {
             "full_name": "superdesigndev/treg",
             "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
             "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · เชื่อมต่อแชต (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 5720,
-            "forks_count": 477,
+            "stargazers_count": 5808,
+            "forks_count": 485,
             "html_url": "https://github.com/superdesigndev/treg",
             "topics": [
                 "agents",
@@ -569,7 +569,7 @@
             ],
             "category": "tool",
             "created_at": "2026-07-15T13:38:07Z",
-            "pushed_at": "2026-10-18T06:01:45Z"
+            "pushed_at": "2026-10-19T15:16:40Z"
         },
         {
             "full_name": "SenteLabsAI/OpenExecutive",
@@ -600,8 +600,8 @@
             "description": "DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
             "description_th": "เครื่องมือนักพัฒนา โอเพนซอร์ส (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 5198,
-            "forks_count": 178,
+            "stargazers_count": 5402,
+            "forks_count": 186,
             "html_url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
             "topics": [
                 "cordis",
@@ -619,12 +619,28 @@
             "pushed_at": "2026-10-11T12:25:55Z"
         },
         {
+            "full_name": "monid-ai/monid",
+            "description": "Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8",
+            "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · เชื่อมต่อแชต (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 5299,
+            "forks_count": 675,
+            "html_url": "https://github.com/monid-ai/monid",
+            "topics": [
+                "ai-agents",
+                "developer-tools"
+            ],
+            "category": "tool",
+            "created_at": "2026-08-26T03:45:18Z",
+            "pushed_at": "2026-10-16T03:23:31Z"
+        },
+        {
             "full_name": "yi1108/printfilm",
             "description": "PRINTFILM: AI short-video marketing and AI short-drama creation platform",
             "description_th": "โปรเจกต์ AI โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 5177,
-            "forks_count": 577,
+            "stargazers_count": 5183,
+            "forks_count": 578,
             "html_url": "https://github.com/yi1108/printfilm",
             "topics": [
                 "ai",
@@ -641,8 +657,8 @@
             "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
             "description_th": "เครื่องมืออัตโนมัติ — เวิร์กโฟลว์ · ระบบหลายเอเจนต์ · เอเจนต์ AI · MCP (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 5018,
-            "forks_count": 655,
+            "stargazers_count": 5049,
+            "forks_count": 658,
             "html_url": "https://github.com/totec448-spec/chat-on-steroids",
             "topics": [
                 "automation",
@@ -658,31 +674,15 @@
             ],
             "category": "automation",
             "created_at": "2026-08-22T14:16:24Z",
-            "pushed_at": "2026-10-18T12:17:35Z"
-        },
-        {
-            "full_name": "monid-ai/monid",
-            "description": "Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8",
-            "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · เชื่อมต่อแชต (เขียนด้วย TypeScript)",
-            "language": "TypeScript",
-            "stargazers_count": 5008,
-            "forks_count": 647,
-            "html_url": "https://github.com/monid-ai/monid",
-            "topics": [
-                "ai-agents",
-                "developer-tools"
-            ],
-            "category": "tool",
-            "created_at": "2026-08-26T03:45:18Z",
-            "pushed_at": "2026-10-16T03:23:31Z"
+            "pushed_at": "2026-10-19T12:28:47Z"
         },
         {
             "full_name": "Jia-Ethan/codex-keysmith",
             "description": "Versioned Codex instruction deployment with preview, ownership manifests, hook isolation, scenario evaluation, and recovery.",
             "description_th": "เครื่องมือนักพัฒนา — วัดผล/ประเมินโมเดล (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 4756,
-            "forks_count": 742,
+            "stargazers_count": 4764,
+            "forks_count": 740,
             "html_url": "https://github.com/Jia-Ethan/codex-keysmith",
             "topics": [
                 "cli",
@@ -703,8 +703,8 @@
             "description": "A persistent workspace for development work that self-improves and continues beyond one session.",
             "description_th": "เครื่องมืออัตโนมัติ โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 4479,
-            "forks_count": 832,
+            "stargazers_count": 4490,
+            "forks_count": 838,
             "html_url": "https://github.com/kirodotdev/KiroCrew",
             "topics": [
                 "agent",
@@ -719,15 +719,15 @@
             ],
             "category": "automation",
             "created_at": "2026-07-16T21:21:54Z",
-            "pushed_at": "2026-10-18T12:29:17Z"
+            "pushed_at": "2026-10-19T15:18:23Z"
         },
         {
             "full_name": "microsoft/skill-recorder",
             "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout, Microsoft Copilot Cowork, or Copilot Studio.",
             "description_th": "เครื่องมืออัตโนมัติ — ทำงานอัตโนมัติ · เครื่องมือบรรทัดคำสั่ง (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 4242,
-            "forks_count": 457,
+            "stargazers_count": 4246,
+            "forks_count": 466,
             "html_url": "https://github.com/microsoft/skill-recorder",
             "topics": [
                 "agent-skills",
@@ -743,7 +743,7 @@
             ],
             "category": "automation",
             "created_at": "2026-07-29T18:16:14Z",
-            "pushed_at": "2026-10-06T19:06:56Z"
+            "pushed_at": "2026-10-18T18:10:43Z"
         },
         {
             "full_name": "TestSprite/testsprite-cli",
@@ -771,8 +771,8 @@
             "description": "The open-source AI workbench for scientific research",
             "description_th": "โปรเจกต์ AI — โอเพนซอร์ส (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 4069,
-            "forks_count": 529,
+            "stargazers_count": 4105,
+            "forks_count": 530,
             "html_url": "https://github.com/synthetic-sciences/openscience",
             "topics": [
                 "agent",
@@ -802,8 +802,8 @@
             "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
             "description_th": "โปรเจกต์ AI — การเงิน · โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 3953,
-            "forks_count": 501,
+            "stargazers_count": 3967,
+            "forks_count": 502,
             "html_url": "https://github.com/LosaLosSantos/aurelio-finance",
             "topics": [
                 "ai",
@@ -823,7 +823,7 @@
             ],
             "category": "ai",
             "created_at": "2026-10-06T20:14:19Z",
-            "pushed_at": "2026-10-17T13:14:11Z"
+            "pushed_at": "2026-10-19T15:03:04Z"
         },
         {
             "full_name": "jub0t/Concat",
@@ -877,6 +877,26 @@
             "category": "tool",
             "created_at": "2026-06-09T02:28:17Z",
             "pushed_at": "2026-09-22T08:02:30Z"
+        },
+        {
+            "full_name": "ShawnPana/phone-harness",
+            "description": "let your agent control your phone",
+            "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI (เขียนด้วย Python)",
+            "language": "Python",
+            "stargazers_count": 3823,
+            "forks_count": 405,
+            "html_url": "https://github.com/ShawnPana/phone-harness",
+            "topics": [
+                "agent",
+                "ai",
+                "automation",
+                "developer-tools",
+                "mobile-ai",
+                "mobile-development"
+            ],
+            "category": "tool",
+            "created_at": "2026-08-07T22:28:53Z",
+            "pushed_at": "2026-10-17T18:30:30Z"
         },
         {
             "full_name": "tutti-os/tutti",
@@ -937,32 +957,12 @@
             "pushed_at": "2026-09-26T14:03:48Z"
         },
         {
-            "full_name": "ShawnPana/phone-harness",
-            "description": "let your agent control your phone",
-            "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI (เขียนด้วย Python)",
-            "language": "Python",
-            "stargazers_count": 3776,
-            "forks_count": 395,
-            "html_url": "https://github.com/ShawnPana/phone-harness",
-            "topics": [
-                "agent",
-                "ai",
-                "automation",
-                "developer-tools",
-                "mobile-ai",
-                "mobile-development"
-            ],
-            "category": "tool",
-            "created_at": "2026-08-07T22:28:53Z",
-            "pushed_at": "2026-10-17T18:30:30Z"
-        },
-        {
             "full_name": "Jakubantalik/thinking-orbs",
             "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light",
             "description_th": "โปรเจกต์ AI — เอเจนต์ AI · อินดิเคเตอร์/วิเคราะห์ทางเทคนิค (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 3771,
-            "forks_count": 316,
+            "stargazers_count": 3790,
+            "forks_count": 321,
             "html_url": "https://github.com/Jakubantalik/thinking-orbs",
             "topics": [
                 "ai",
@@ -981,8 +981,8 @@
             "description": "An all-in-one, pure C++ inference engine for audio models, powered by ggml. Supports TTS, STT, VAD, voice conversion, music generation, and more, with highly optimized performance. No Python dependency.",
             "description_th": "โปรเจกต์ AI — สังเคราะห์เสียงพูด · ให้บริการโมเดล · เสียงพูด/โคลนเสียง (เขียนด้วย C++)",
             "language": "C++",
-            "stargazers_count": 3618,
-            "forks_count": 427,
+            "stargazers_count": 3638,
+            "forks_count": 430,
             "html_url": "https://github.com/0xShug0/audio.cpp",
             "topics": [
                 "ai",
@@ -1008,7 +1008,60 @@
             ],
             "category": "ai",
             "created_at": "2026-06-23T15:40:46Z",
-            "pushed_at": "2026-10-18T05:19:05Z"
+            "pushed_at": "2026-10-19T05:15:07Z"
+        },
+        {
+            "full_name": "AlephAITech/WorkBuddyGuide",
+            "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+            "description_th": "เครื่องมืออัตโนมัติ — เวิร์กโฟลว์ · MCP · สื่อการเรียนรู้ · โอเพนซอร์ส (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 3527,
+            "forks_count": 498,
+            "html_url": "https://github.com/AlephAITech/WorkBuddyGuide",
+            "topics": [
+                "agent-skills",
+                "automation",
+                "codex",
+                "guide",
+                "llm",
+                "multi-agent",
+                "workbuddy",
+                "workflow"
+            ],
+            "category": "automation",
+            "created_at": "2026-07-10T04:13:51Z",
+            "pushed_at": "2026-10-19T09:10:37Z"
+        },
+        {
+            "full_name": "Kuddev/pebrel",
+            "description": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows.",
+            "description_th": "เครื่องมือนักพัฒนา — เครื่องมือบรรทัดคำสั่ง · เทอร์มินัล · เวิร์กโฟลว์ (เขียนด้วย Rust)",
+            "language": "Rust",
+            "stargazers_count": 3508,
+            "forks_count": 195,
+            "html_url": "https://github.com/Kuddev/pebrel",
+            "topics": [
+                "ai-cli",
+                "ai-terminal",
+                "claude-code",
+                "codex",
+                "conpty",
+                "developer-tools",
+                "gpu-accelerated",
+                "opengl",
+                "powershell",
+                "rust",
+                "session-persistence",
+                "split-panes",
+                "ssh",
+                "ssh-client",
+                "terminal",
+                "terminal-emulator",
+                "windows"
+            ],
+            "category": "tool",
+            "created_at": "2026-07-05T12:17:36Z",
+            "pushed_at": "2026-10-19T12:38:17Z"
         },
         {
             "full_name": "deepseek-ai/deepseek-harness",
@@ -1026,28 +1079,6 @@
             "description_th": "ชุดเครื่องมือและเฟรมเวิร์กของ DeepSeek สำหรับสร้างและฝึกโมเดล AI",
             "created_at": "2026-08-13T11:56:32Z",
             "pushed_at": "2026-10-17T08:16:09Z"
-        },
-        {
-            "full_name": "AlephAITech/WorkBuddyGuide",
-            "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
-            "description_th": "เครื่องมืออัตโนมัติ — เวิร์กโฟลว์ · MCP · สื่อการเรียนรู้ · โอเพนซอร์ส (เขียนด้วย TypeScript)",
-            "language": "TypeScript",
-            "stargazers_count": 3497,
-            "forks_count": 496,
-            "html_url": "https://github.com/AlephAITech/WorkBuddyGuide",
-            "topics": [
-                "agent-skills",
-                "automation",
-                "codex",
-                "guide",
-                "llm",
-                "multi-agent",
-                "workbuddy",
-                "workflow"
-            ],
-            "category": "automation",
-            "created_at": "2026-07-10T04:13:51Z",
-            "pushed_at": "2026-09-18T15:22:08Z"
         },
         {
             "full_name": "zenbu-labs/terminal-browser",
@@ -1074,43 +1105,12 @@
             "pushed_at": "2026-09-20T22:20:47Z"
         },
         {
-            "full_name": "Kuddev/pebrel",
-            "description": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows.",
-            "description_th": "เครื่องมือนักพัฒนา — เครื่องมือบรรทัดคำสั่ง · เทอร์มินัล · เวิร์กโฟลว์ (เขียนด้วย Rust)",
-            "language": "Rust",
-            "stargazers_count": 3469,
-            "forks_count": 190,
-            "html_url": "https://github.com/Kuddev/pebrel",
-            "topics": [
-                "ai-cli",
-                "ai-terminal",
-                "claude-code",
-                "codex",
-                "conpty",
-                "developer-tools",
-                "gpu-accelerated",
-                "opengl",
-                "powershell",
-                "rust",
-                "session-persistence",
-                "split-panes",
-                "ssh",
-                "ssh-client",
-                "terminal",
-                "terminal-emulator",
-                "windows"
-            ],
-            "category": "tool",
-            "created_at": "2026-07-05T12:17:36Z",
-            "pushed_at": "2026-10-17T09:11:12Z"
-        },
-        {
             "full_name": "fuxicodex/Fuxi",
             "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
             "description_th": "เครื่องมือนักพัฒนา — โมเดลภาษาขนาดใหญ่ (LLM) · เอเจนต์ AI · ช่วยเขียนโค้ด · เทอร์มินัล (เขียนด้วย Python)",
             "language": "Python",
             "stargazers_count": 3342,
-            "forks_count": 234,
+            "forks_count": 239,
             "html_url": "https://github.com/fuxicodex/Fuxi",
             "topics": [
                 "agent",
@@ -1143,8 +1143,8 @@
             "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
             "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · โมเดล AI ชั้นนำ · ช่วยเขียนโค้ด (เขียนด้วย Rust)",
             "language": "Rust",
-            "stargazers_count": 3288,
-            "forks_count": 333,
+            "stargazers_count": 3304,
+            "forks_count": 337,
             "html_url": "https://github.com/zeronsh/zeron",
             "topics": [
                 "ai",
@@ -1160,7 +1160,56 @@
             ],
             "category": "tool",
             "created_at": "2026-07-20T15:04:04Z",
-            "pushed_at": "2026-10-18T02:30:31Z"
+            "pushed_at": "2026-10-19T07:20:39Z"
+        },
+        {
+            "full_name": "onehumanbeing/esp32-iphone-agent",
+            "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+            "description_th": "เครื่องมืออัตโนมัติ — โมเดล AI ชั้นนำ (เขียนด้วย Python)",
+            "language": "C",
+            "stargazers_count": 3252,
+            "forks_count": 433,
+            "html_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+            "topics": [
+                "ai-agent",
+                "airplay",
+                "automation",
+                "computer-use",
+                "esp32",
+                "esp32-s3",
+                "iphone",
+                "llm",
+                "usb-hid"
+            ],
+            "category": "automation",
+            "created_at": "2026-10-11T19:10:25Z",
+            "pushed_at": "2026-10-19T14:49:32Z"
+        },
+        {
+            "full_name": "Nanako0129/sepia",
+            "description": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+            "description_th": "เครื่องมือนักพัฒนา — เครื่องมือบรรทัดคำสั่ง · เอเจนต์ AI · โมเดล AI ชั้นนำ (เขียนด้วย Python)",
+            "language": "Python",
+            "stargazers_count": 3246,
+            "forks_count": 212,
+            "html_url": "https://github.com/Nanako0129/sepia",
+            "topics": [
+                "agent-skills",
+                "ai-writing",
+                "antigravity",
+                "claude-code",
+                "codex",
+                "developer-tools",
+                "fiction",
+                "grok",
+                "humanizer",
+                "llm",
+                "prompt-engineering",
+                "writing-tools"
+            ],
+            "category": "tool",
+            "created_at": "2026-08-28T05:56:49Z",
+            "pushed_at": "2026-10-15T02:19:17Z"
         },
         {
             "full_name": "chuspeeism/dashi-taskboard",
@@ -1186,38 +1235,12 @@
             "pushed_at": "2026-09-26T13:56:12Z"
         },
         {
-            "full_name": "Nanako0129/sepia",
-            "description": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
-            "description_th": "เครื่องมือนักพัฒนา — เครื่องมือบรรทัดคำสั่ง · เอเจนต์ AI · โมเดล AI ชั้นนำ (เขียนด้วย Python)",
-            "language": "Python",
-            "stargazers_count": 3225,
-            "forks_count": 210,
-            "html_url": "https://github.com/Nanako0129/sepia",
-            "topics": [
-                "agent-skills",
-                "ai-writing",
-                "antigravity",
-                "claude-code",
-                "codex",
-                "developer-tools",
-                "fiction",
-                "grok",
-                "humanizer",
-                "llm",
-                "prompt-engineering",
-                "writing-tools"
-            ],
-            "category": "tool",
-            "created_at": "2026-08-28T05:56:49Z",
-            "pushed_at": "2026-10-15T02:19:17Z"
-        },
-        {
             "full_name": "shadcn-ui/lint",
             "description": "An agent-first linter for Tailwind design systems. Write design system rules that agents can verify.",
             "description_th": "โปรเจกต์ AI — เอเจนต์ AI (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 3218,
-            "forks_count": 66,
+            "stargazers_count": 3226,
+            "forks_count": 67,
             "html_url": "https://github.com/shadcn-ui/lint",
             "topics": [
                 "agents",
@@ -1231,7 +1254,7 @@
             ],
             "category": "ai",
             "created_at": "2026-09-02T11:51:38Z",
-            "pushed_at": "2026-10-16T14:48:16Z"
+            "pushed_at": "2026-10-19T06:07:57Z"
         },
         {
             "full_name": "Forward-Future/loopy",
@@ -1252,29 +1275,6 @@
             "category": "automation",
             "created_at": "2026-06-12T14:44:22Z",
             "pushed_at": "2026-09-11T03:57:03Z"
-        },
-        {
-            "full_name": "onehumanbeing/esp32-iphone-agent",
-            "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-            "description_th": "เครื่องมืออัตโนมัติ — โมเดล AI ชั้นนำ (เขียนด้วย Python)",
-            "language": "C",
-            "stargazers_count": 3060,
-            "forks_count": 396,
-            "html_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-            "topics": [
-                "ai-agent",
-                "airplay",
-                "automation",
-                "computer-use",
-                "esp32",
-                "esp32-s3",
-                "iphone",
-                "llm",
-                "usb-hid"
-            ],
-            "category": "automation",
-            "created_at": "2026-10-11T19:10:25Z",
-            "pushed_at": "2026-10-18T00:06:23Z"
         },
         {
             "full_name": "rlaope/oh-my-hermes",
@@ -1304,7 +1304,7 @@
             "description": "EverRoom - A workspace that remembers your projects, decisions, and sources.",
             "description_th": "โปรเจกต์ AI โอเพนซอร์ส (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 2991,
+            "stargazers_count": 2992,
             "forks_count": 268,
             "html_url": "https://github.com/NxcoreAI/EverRoom",
             "topics": [
@@ -1319,15 +1319,15 @@
             ],
             "category": "ai",
             "created_at": "2026-08-14T13:13:51Z",
-            "pushed_at": "2026-10-17T18:08:48Z"
+            "pushed_at": "2026-10-19T13:17:14Z"
         },
         {
             "full_name": "Tiger3807861189/J-Space-Cognition-Suite",
             "description": "J-Space Cognition Suite — a model-agnostic inference-time control suite for deep reasoning, long-horizon work, verification, and recovery. Based on Anthropic's J-space global workspace research.",
             "description_th": "เครื่องมือนักพัฒนา — ให้บริการโมเดล · โมเดล AI ชั้นนำ (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 2974,
-            "forks_count": 235,
+            "stargazers_count": 2972,
+            "forks_count": 243,
             "html_url": "https://github.com/Tiger3807861189/J-Space-Cognition-Suite",
             "topics": [
                 "agent-skills",
@@ -1359,7 +1359,7 @@
             "description": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
             "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · เสียงพูด/โคลนเสียง · เรียลไทม์ (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 2937,
+            "stargazers_count": 2946,
             "forks_count": 300,
             "html_url": "https://github.com/QwenAudio/qwen-audio-agent",
             "topics": [
@@ -1379,15 +1379,15 @@
             ],
             "category": "tool",
             "created_at": "2026-07-27T05:04:26Z",
-            "pushed_at": "2026-10-16T12:09:52Z"
+            "pushed_at": "2026-10-19T13:47:37Z"
         },
         {
             "full_name": "Prism-Shadow/penguin-harness",
             "description": "🐧 Unified and Stable RSI Platform",
             "description_th": "โปรเจกต์ AI โอเพนซอร์ส (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 2822,
-            "forks_count": 300,
+            "stargazers_count": 2857,
+            "forks_count": 302,
             "html_url": "https://github.com/Prism-Shadow/penguin-harness",
             "topics": [
                 "agent",
@@ -1405,7 +1405,33 @@
             ],
             "category": "ai",
             "created_at": "2026-07-19T03:15:21Z",
-            "pushed_at": "2026-10-18T11:59:00Z"
+            "pushed_at": "2026-10-19T14:44:41Z"
+        },
+        {
+            "full_name": "dzhng/jevgrep",
+            "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+            "description_th": "เครื่องมือนักพัฒนา — เครื่องมือบรรทัดคำสั่ง · เอเจนต์ AI · ช่วยเขียนโค้ด (เขียนด้วย TypeScript)",
+            "language": "TypeScript",
+            "stargazers_count": 2809,
+            "forks_count": 214,
+            "html_url": "https://github.com/dzhng/jevgrep",
+            "topics": [
+                "ai-sdk",
+                "claude-code",
+                "cli",
+                "code-search",
+                "codex",
+                "coding-agents",
+                "context-retrieval",
+                "developer-tools",
+                "jev",
+                "semantic-search",
+                "typescript",
+                "vercel-ai-gateway"
+            ],
+            "category": "tool",
+            "created_at": "2026-09-26T04:06:56Z",
+            "pushed_at": "2026-10-19T03:42:23Z"
         },
         {
             "full_name": "heygen-com/hyperframes",
@@ -1422,7 +1448,7 @@
             "category": "ai",
             "description_th": "เฟรมเวิร์กสร้างวิดีโอด้วย AI ประกอบฉาก แอนิเมชัน และเสียงได้จากโค้ด",
             "created_at": "2026-03-10T01:51:06Z",
-            "pushed_at": "2026-10-18T10:28:38Z"
+            "pushed_at": "2026-10-19T15:19:31Z"
         },
         {
             "full_name": "MIgHTy-alIeN/ethereum-flashloan-mev-bot",
@@ -1445,41 +1471,15 @@
             ],
             "category": "ai",
             "created_at": "2026-07-17T09:45:22Z",
-            "pushed_at": "2026-10-18T12:28:39Z"
-        },
-        {
-            "full_name": "dzhng/jevgrep",
-            "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
-            "description_th": "เครื่องมือนักพัฒนา — เครื่องมือบรรทัดคำสั่ง · เอเจนต์ AI · ช่วยเขียนโค้ด (เขียนด้วย TypeScript)",
-            "language": "TypeScript",
-            "stargazers_count": 2778,
-            "forks_count": 212,
-            "html_url": "https://github.com/dzhng/jevgrep",
-            "topics": [
-                "ai-sdk",
-                "claude-code",
-                "cli",
-                "code-search",
-                "codex",
-                "coding-agents",
-                "context-retrieval",
-                "developer-tools",
-                "jev",
-                "semantic-search",
-                "typescript",
-                "vercel-ai-gateway"
-            ],
-            "category": "tool",
-            "created_at": "2026-09-26T04:06:56Z",
-            "pushed_at": "2026-10-18T09:25:33Z"
+            "pushed_at": "2026-10-18T22:11:36Z"
         },
         {
             "full_name": "lennney/stop-that-shit",
             "description": "Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验和与任务范围膨胀。 A multi-platform Hook + Skill Guard for AI coding agents in Codex/GPT workflows: stop unrequested hashes, checksums, and task-scope creep.",
             "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · โมเดล AI ชั้นนำ · ช่วยเขียนโค้ด · เวิร์กโฟลว์ (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 2730,
-            "forks_count": 65,
+            "stargazers_count": 2757,
+            "forks_count": 71,
             "html_url": "https://github.com/lennney/stop-that-shit",
             "topics": [
                 "agent-skills",
@@ -1500,15 +1500,15 @@
             ],
             "category": "tool",
             "created_at": "2026-08-11T15:31:45Z",
-            "pushed_at": "2026-10-15T12:31:18Z"
+            "pushed_at": "2026-10-19T06:40:17Z"
         },
         {
             "full_name": "simonlin1212/Vibe-Research",
             "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
             "description_th": "เครื่องมือเทรด/การเงิน — เทรด · เอเจนต์ AI (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 2729,
-            "forks_count": 573,
+            "stargazers_count": 2744,
+            "forks_count": 581,
             "html_url": "https://github.com/simonlin1212/Vibe-Research",
             "topics": [
                 "a-stock",
@@ -1539,8 +1539,8 @@
             "description": "Self-learning agent browser",
             "description_th": "เครื่องมือนักพัฒนา — เอเจนต์ AI · เบราว์เซอร์ · สื่อการเรียนรู้ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 2720,
-            "forks_count": 1548,
+            "stargazers_count": 2725,
+            "forks_count": 1553,
             "html_url": "https://github.com/agentrhq/webcmd",
             "topics": [
                 "ai-agents",
@@ -1560,8 +1560,8 @@
             "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
             "description_th": "เครื่องมืออัตโนมัติ — เวิร์กโฟลว์ · เอเจนต์ AI · โอเพนซอร์ส (เขียนด้วย Rust)",
             "language": "Rust",
-            "stargazers_count": 2570,
-            "forks_count": 377,
+            "stargazers_count": 2590,
+            "forks_count": 380,
             "html_url": "https://github.com/Pinvou/pinvou-agent",
             "topics": [
                 "ai-agent",
@@ -1577,7 +1577,7 @@
             ],
             "category": "automation",
             "created_at": "2026-07-24T07:28:41Z",
-            "pushed_at": "2026-10-18T11:52:03Z"
+            "pushed_at": "2026-10-19T15:16:13Z"
         },
         {
             "full_name": "penecho/penecho",
@@ -1606,7 +1606,7 @@
             "description": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radius, tests-to-run, quality deltas. Signatures at 74.7% fewer bytes than bodies; every guess labelled, every loss published. Paddle out with a map.",
             "description_th": "เครื่องมือนักพัฒนา — เครื่องมือบรรทัดคำสั่ง · เอเจนต์ AI · ช่วยเขียนโค้ด · MCP (เขียนด้วย C++)",
             "language": "C++",
-            "stargazers_count": 2455,
+            "stargazers_count": 2458,
             "forks_count": 158,
             "html_url": "https://github.com/redhat-et/ripwire",
             "topics": [
@@ -1633,15 +1633,15 @@
             ],
             "category": "tool",
             "created_at": "2026-07-29T15:58:33Z",
-            "pushed_at": "2026-10-18T09:23:38Z"
+            "pushed_at": "2026-10-19T14:37:20Z"
         },
         {
             "full_name": "3441293738/creatorhub",
             "description": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手",
             "description_th": "เครื่องมืออัตโนมัติ โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 2394,
-            "forks_count": 433,
+            "stargazers_count": 2398,
+            "forks_count": 434,
             "html_url": "https://github.com/3441293738/creatorhub",
             "topics": [
                 "automation",
@@ -1659,7 +1659,7 @@
             ],
             "category": "automation",
             "created_at": "2026-07-03T08:43:10Z",
-            "pushed_at": "2026-10-18T11:49:06Z"
+            "pushed_at": "2026-10-19T15:14:03Z"
         },
         {
             "full_name": "mesamirh/MovieBox-Tui",
@@ -1742,8 +1742,8 @@
             "description": "A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains useful in future tasks.",
             "description_th": "เครื่องมือนักพัฒนา — ส่วนขยาย · ช่วยเขียนโค้ด (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 2046,
-            "forks_count": 70,
+            "stargazers_count": 2048,
+            "forks_count": 73,
             "html_url": "https://github.com/memorax-ai/memorax-code",
             "topics": [
                 "ai-agents",
@@ -1756,7 +1756,7 @@
             ],
             "category": "tool",
             "created_at": "2026-08-01T02:13:37Z",
-            "pushed_at": "2026-10-18T09:06:20Z"
+            "pushed_at": "2026-10-19T14:44:10Z"
         },
         {
             "full_name": "eneskirca/nodeterm",
@@ -1831,8 +1831,8 @@
             "description": "px0 is an IDE built for reviewing AI-generated code, optimized for speed. It turns your browser into a zero-latency console with native Git and GitHub integrations, instant search across massive codebases, in-place quick fixes, and seamless handoff to local AI coding harnesses.",
             "description_th": "เครื่องมือนักพัฒนา — ตัวแก้ไขโค้ด · ช่วยเขียนโค้ด · เบราว์เซอร์ (เขียนด้วย Go)",
             "language": "Go",
-            "stargazers_count": 1875,
-            "forks_count": 254,
+            "stargazers_count": 1883,
+            "forks_count": 257,
             "html_url": "https://github.com/px0-ai/px0",
             "topics": [
                 "code-viewer",
@@ -1843,7 +1843,7 @@
             ],
             "category": "tool",
             "created_at": "2026-06-24T13:03:11Z",
-            "pushed_at": "2026-10-18T07:08:37Z"
+            "pushed_at": "2026-10-19T09:50:30Z"
         },
         {
             "full_name": "debpalash/OmniVoice-Studio",
@@ -1860,15 +1860,15 @@
             "category": "ai",
             "description_th": "สตูดิโอสังเคราะห์เสียงพูดและโคลนเสียง (TTS) คุณภาพสูง รองรับหลายภาษา",
             "created_at": "2026-04-09T21:40:26Z",
-            "pushed_at": "2026-10-18T07:51:57Z"
+            "pushed_at": "2026-10-19T14:56:16Z"
         },
         {
             "full_name": "soumatheusgomes/vibe-coding-toolkit",
             "description": "A curated, battle-tested AI-coding toolkit: Claude Code plugins, subagent orchestration, quality gates, and ready-to-copy prompts, extracted from real production use.",
             "description_th": "เครื่องมือนักพัฒนา — พรอมป์ต · โมเดล AI ชั้นนำ · ช่วยเขียนโค้ด · รวมลิงก์/คอลเลกชัน (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 1561,
-            "forks_count": 253,
+            "stargazers_count": 1689,
+            "forks_count": 277,
             "html_url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
             "topics": [
                 "ai-agents",
@@ -1880,7 +1880,40 @@
             ],
             "category": "tool",
             "created_at": "2026-08-14T23:41:31Z",
-            "pushed_at": "2026-10-17T22:41:50Z"
+            "pushed_at": "2026-10-19T02:42:59Z"
+        },
+        {
+            "full_name": "jundizhou/easy-stock",
+            "description": "A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock",
+            "description_th": "เครื่องมือเทรด/การเงิน — หุ้น/ข้อมูลตลาด (เขียนด้วย Go)",
+            "language": "Go",
+            "stargazers_count": 1548,
+            "forks_count": 156,
+            "html_url": "https://github.com/jundizhou/easy-stock",
+            "topics": [
+                "a-share",
+                "ai",
+                "ai-agent",
+                "china-stock",
+                "desktop-app",
+                "electron",
+                "go",
+                "golang",
+                "llm",
+                "llm-agent",
+                "quant",
+                "quant-trading",
+                "quantitative-finance",
+                "react",
+                "stock",
+                "stock-analysis",
+                "stock-market",
+                "trading",
+                "trading-agents"
+            ],
+            "category": "trading",
+            "created_at": "2026-08-07T16:25:36Z",
+            "pushed_at": "2026-10-19T09:41:41Z"
         },
         {
             "full_name": "nklmilojevic/sofka",
@@ -1910,39 +1943,6 @@
             "category": "tool",
             "created_at": "2026-07-01T12:31:02Z",
             "pushed_at": "2026-09-27T22:56:04Z"
-        },
-        {
-            "full_name": "jundizhou/easy-stock",
-            "description": "A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock",
-            "description_th": "เครื่องมือเทรด/การเงิน — หุ้น/ข้อมูลตลาด (เขียนด้วย Go)",
-            "language": "Go",
-            "stargazers_count": 1522,
-            "forks_count": 150,
-            "html_url": "https://github.com/jundizhou/easy-stock",
-            "topics": [
-                "a-share",
-                "ai",
-                "ai-agent",
-                "china-stock",
-                "desktop-app",
-                "electron",
-                "go",
-                "golang",
-                "llm",
-                "llm-agent",
-                "quant",
-                "quant-trading",
-                "quantitative-finance",
-                "react",
-                "stock",
-                "stock-analysis",
-                "stock-market",
-                "trading",
-                "trading-agents"
-            ],
-            "category": "trading",
-            "created_at": "2026-08-07T16:25:36Z",
-            "pushed_at": "2026-10-17T01:11:57Z"
         },
         {
             "full_name": "Ptero-ai/Ptero",
@@ -1982,15 +1982,15 @@
             "category": "ai",
             "description_th": "เอเจนต์ AI เขียนโค้ดแบบฟรี ทำงานอัตโนมัติได้เอง (autonomous coding agent)",
             "created_at": "2024-07-09T21:21:56Z",
-            "pushed_at": "2026-10-18T10:40:20Z"
+            "pushed_at": "2026-10-19T14:39:30Z"
         },
         {
             "full_name": "88lin/workbuddy-auto-signin",
             "description": "自动领取 WorkBuddy 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
             "description_th": "เครื่องมืออัตโนมัติ โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 1371,
-            "forks_count": 123,
+            "stargazers_count": 1427,
+            "forks_count": 130,
             "html_url": "https://github.com/88lin/workbuddy-auto-signin",
             "topics": [
                 "auto-checkin",
@@ -2001,14 +2001,14 @@
             ],
             "category": "automation",
             "created_at": "2026-08-18T18:53:38Z",
-            "pushed_at": "2026-10-16T11:39:06Z"
+            "pushed_at": "2026-10-19T04:19:51Z"
         },
         {
             "full_name": "awlevin/typesafe-computer-use",
             "description": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
             "description_th": "เครื่องมืออัตโนมัติ — อ่านข้อความจากภาพ (OCR) (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 1241,
+            "stargazers_count": 1244,
             "forks_count": 119,
             "html_url": "https://github.com/awlevin/typesafe-computer-use",
             "topics": [
@@ -2047,31 +2047,15 @@
             ],
             "category": "automation",
             "created_at": "2026-09-15T04:33:20Z",
-            "pushed_at": "2026-10-15T03:45:23Z"
-        },
-        {
-            "full_name": "multica-ai/multica",
-            "description": "Multica AI platform - multi-agent collaboration",
-            "language": "Python",
-            "stargazers_count": 1200,
-            "forks_count": 130,
-            "html_url": "https://github.com/multica-ai/multica",
-            "topics": [
-                "ai",
-                "multi-agent"
-            ],
-            "category": "ai",
-            "description_th": "แพลตฟอร์ม AI แบบหลายเอเจนต์ที่ทำงานร่วมกันและประสานงานกันได้",
-            "created_at": "2026-01-13T17:59:46Z",
-            "pushed_at": "2026-10-18T10:32:27Z"
+            "pushed_at": "2026-10-19T15:19:42Z"
         },
         {
             "full_name": "LuxAlgo/Vela",
             "description": "Fast, extensible financial charts for the web. The open-source core of Vela by LuxAlgo.",
             "description_th": "เครื่องมือเทรด/การเงิน — อินดิเคเตอร์/วิเคราะห์ทางเทคนิค · การเงิน · เร็ว/ขยายระบบได้ (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 1187,
-            "forks_count": 232,
+            "stargazers_count": 1202,
+            "forks_count": 233,
             "html_url": "https://github.com/LuxAlgo/Vela",
             "topics": [
                 "canvas",
@@ -2087,15 +2071,31 @@
             ],
             "category": "trading",
             "created_at": "2026-07-13T16:21:40Z",
-            "pushed_at": "2026-10-16T20:25:28Z"
+            "pushed_at": "2026-10-19T14:58:57Z"
+        },
+        {
+            "full_name": "multica-ai/multica",
+            "description": "Multica AI platform - multi-agent collaboration",
+            "language": "Python",
+            "stargazers_count": 1200,
+            "forks_count": 130,
+            "html_url": "https://github.com/multica-ai/multica",
+            "topics": [
+                "ai",
+                "multi-agent"
+            ],
+            "category": "ai",
+            "description_th": "แพลตฟอร์ม AI แบบหลายเอเจนต์ที่ทำงานร่วมกันและประสานงานกันได้",
+            "created_at": "2026-01-13T17:59:46Z",
+            "pushed_at": "2026-10-19T10:07:18Z"
         },
         {
             "full_name": "zcbacxc/movie-narrator",
             "description": "🎬 Generate narrated movie recap videos from a single prompt.",
             "description_th": "เครื่องมืออัตโนมัติ — พรอมป์ต (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 1122,
-            "forks_count": 222,
+            "stargazers_count": 1143,
+            "forks_count": 226,
             "html_url": "https://github.com/zcbacxc/movie-narrator",
             "topics": [
                 "automation",
@@ -2116,7 +2116,7 @@
             "description": "免費開源的投資反詐、交易統計與自動化交易程式工具：預設 PaperBroker，提供 14 種券商／交易所選項；交易紀錄分析在本機執行。",
             "description_th": "เครื่องมือเทรด/การเงิน โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 1075,
+            "stargazers_count": 1072,
             "forks_count": 82,
             "html_url": "https://github.com/mars-tw/anti-gambling-trader-tw",
             "topics": [
@@ -2180,7 +2180,7 @@
             "description": "The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.",
             "description_th": "เครื่องมืออัตโนมัติ — โมเดลภาษาขนาดใหญ่ (LLM) (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 959,
+            "stargazers_count": 960,
             "forks_count": 62,
             "html_url": "https://github.com/browser-use/macos-harness",
             "topics": [
@@ -2201,8 +2201,8 @@
             "description": "Grok 批量注册 (Camoufox) + 实时 Web 监控面板 | Batch Grok registration engine with live panel — concurrency · ASN blacklist · proxy pool · token auth",
             "description_th": "เครื่องมืออัตโนมัติ — ค่าเงิน/ฟอเร็กซ์ (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 924,
-            "forks_count": 276,
+            "stargazers_count": 927,
+            "forks_count": 277,
             "html_url": "https://github.com/lij768423-svg/grok-register-panel",
             "topics": [
                 "automation",
@@ -2220,7 +2220,7 @@
             ],
             "category": "automation",
             "created_at": "2026-07-29T09:25:01Z",
-            "pushed_at": "2026-10-17T07:45:42Z"
+            "pushed_at": "2026-10-19T08:49:43Z"
         },
         {
             "full_name": "Continuum-AI-Corp/OrcaRouter-Lite",
@@ -2304,7 +2304,7 @@
             "description": "The AI Org-OS — a collaborative platform for humans and agents. Explore: https://spaces.xyne.ai",
             "description_th": "เครื่องมืออัตโนมัติ — เอเจนต์ AI (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 813,
+            "stargazers_count": 815,
             "forks_count": 572,
             "html_url": "https://github.com/juspay/xyne-spaces",
             "topics": [
@@ -2316,7 +2316,7 @@
             ],
             "category": "automation",
             "created_at": "2026-08-02T09:37:59Z",
-            "pushed_at": "2026-10-18T09:27:09Z"
+            "pushed_at": "2026-10-19T14:57:58Z"
         },
         {
             "full_name": "shanraisshan/claude-code-best-practice",
@@ -2333,7 +2333,7 @@
             "category": "ai",
             "description_th": "รวมแนวทางปฏิบัติที่ดีที่สุดและเทคนิคการใช้ Claude Code",
             "created_at": "2025-10-31T14:15:28Z",
-            "pushed_at": "2026-10-18T06:34:02Z"
+            "pushed_at": "2026-10-19T06:34:20Z"
         },
         {
             "full_name": "xingwudao/xquant-beginner",
@@ -2426,11 +2426,45 @@
             "pushed_at": "2026-08-14T09:47:00Z"
         },
         {
+            "full_name": "simonlin1212/vibe-astock",
+            "description": "Vibe AStock：A 股短线复盘与跟踪工作台 · 盯盘异动、情绪复盘（连板天梯、题材轮动、明日验证）、AI 复盘与周报、交易日志、盘前提醒，182 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A short-term trading review and tracking workbench for China A-shares.",
+            "description_th": "เครื่องมือเทรด/การเงิน — โมเดล AI ชั้นนำ · API · หน้าจอ/แดชบอร์ด (เขียนด้วย Python)",
+            "language": "TypeScript",
+            "stargazers_count": 775,
+            "forks_count": 203,
+            "html_url": "https://github.com/simonlin1212/vibe-astock",
+            "topics": [
+                "a-share",
+                "a-stock",
+                "ai-agent",
+                "china-stock-market",
+                "claude-code",
+                "codex",
+                "dashboard",
+                "fintech",
+                "llm",
+                "market-sentiment",
+                "mcp",
+                "python",
+                "react",
+                "self-hosted",
+                "stock-market",
+                "trading",
+                "trading-dashboard",
+                "trading-journal",
+                "typescript",
+                "workbuddy"
+            ],
+            "category": "trading",
+            "created_at": "2026-07-29T23:40:47Z",
+            "pushed_at": "2026-10-18T05:46:25Z"
+        },
+        {
             "full_name": "tiliondev/fortress",
             "description": "Stealth Chromium engine that stops scrapers and browser agents from getting blocked, with one line of code change.",
             "description_th": "เครื่องมืออัตโนมัติ — ดึงข้อมูลจากเว็บ · เชื่อมต่อแชต · เอเจนต์ AI · เบราว์เซอร์ (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 764,
+            "stargazers_count": 767,
             "forks_count": 52,
             "html_url": "https://github.com/tiliondev/fortress",
             "topics": [
@@ -2460,38 +2494,27 @@
             "pushed_at": "2026-10-05T10:18:52Z"
         },
         {
-            "full_name": "simonlin1212/vibe-astock",
-            "description": "Vibe AStock：A 股短线复盘与跟踪工作台 · 盯盘异动、情绪复盘（连板天梯、题材轮动、明日验证）、AI 复盘与周报、交易日志、盘前提醒，182 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A short-term trading review and tracking workbench for China A-shares.",
-            "description_th": "เครื่องมือเทรด/การเงิน — โมเดล AI ชั้นนำ · API · หน้าจอ/แดชบอร์ด (เขียนด้วย Python)",
-            "language": "TypeScript",
-            "stargazers_count": 758,
-            "forks_count": 201,
-            "html_url": "https://github.com/simonlin1212/vibe-astock",
+            "full_name": "sixtysevenlf/dsh-blender-plugin",
+            "description": "DSH × Blender 直连实时插件：15 个模型工具让 AI 驱动 GUI Blender；v2.4 起编辑模式点/线/面、姿态骨骼也能随选中送进 DSH 草稿（含多选/集合模式与 human/agent 判定），随包建模 skill，支持 WSL / Windows / macOS。",
+            "description_th": "เครื่องมืออัตโนมัติ — MCP · ส่วนขยาย (เขียนด้วย Python)",
+            "language": "Python",
+            "stargazers_count": 764,
+            "forks_count": 33,
+            "html_url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
             "topics": [
-                "a-share",
-                "a-stock",
+                "3d-modeling",
                 "ai-agent",
-                "china-stock-market",
-                "claude-code",
-                "codex",
-                "dashboard",
-                "fintech",
-                "llm",
-                "market-sentiment",
-                "mcp",
-                "python",
-                "react",
-                "self-hosted",
-                "stock-market",
-                "trading",
-                "trading-dashboard",
-                "trading-journal",
-                "typescript",
-                "workbuddy"
+                "automation",
+                "blender",
+                "bpy",
+                "cycles",
+                "dsh",
+                "dsh-plugin",
+                "tooling"
             ],
-            "category": "trading",
-            "created_at": "2026-07-29T23:40:47Z",
-            "pushed_at": "2026-10-18T05:46:25Z"
+            "category": "automation",
+            "created_at": "2026-09-13T16:07:04Z",
+            "pushed_at": "2026-10-19T14:49:56Z"
         },
         {
             "full_name": "Open-Finance-Lab/AgenticTrading",
@@ -2599,8 +2622,8 @@
             "description": "Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other harnesses. They drive your browser the way you do and improve every run. You own the files.",
             "description_th": "เครื่องมืออัตโนมัติ — โมเดล AI ชั้นนำ · เบราว์เซอร์ · โอเพนซอร์ส (เขียนด้วย JavaScript)",
             "language": "JavaScript",
-            "stargazers_count": 630,
-            "forks_count": 168,
+            "stargazers_count": 636,
+            "forks_count": 171,
             "html_url": "https://github.com/markfulton/ai-employees",
             "topics": [
                 "ai-agents",
@@ -2626,7 +2649,7 @@
             "description": "Embedded agents your customers use to automate work, build views, and connect their tools.",
             "description_th": "เครื่องมืออัตโนมัติ — ทำงานอัตโนมัติ · เอเจนต์ AI (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 626,
+            "stargazers_count": 629,
             "forks_count": 107,
             "html_url": "https://github.com/runvendo/vendo",
             "topics": [
@@ -2673,29 +2696,6 @@
             "category": "tool",
             "created_at": "2026-06-13T14:38:25Z",
             "pushed_at": "2026-09-17T20:22:56Z"
-        },
-        {
-            "full_name": "sixtysevenlf/dsh-blender-plugin",
-            "description": "DSH x Blender direct realtime plugin v2.0 — an AI drives Blender over a direct TCP channel (no MCP): 16 tools, 28 families / 186 ops (viewport frames, click-to-pick, render profiling, headless offload) + a right-sidebar panel (live only) with click-to-context & @-mentions. Addon: DSH Blender Bridge. skill: sixtysevenlf/dsh-skill-blender-modeling",
-            "description_th": "เครื่องมืออัตโนมัติ — MCP · ส่วนขยาย (เขียนด้วย Python)",
-            "language": "Python",
-            "stargazers_count": 512,
-            "forks_count": 23,
-            "html_url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
-            "topics": [
-                "3d-modeling",
-                "ai-agent",
-                "automation",
-                "blender",
-                "bpy",
-                "cycles",
-                "dsh",
-                "dsh-plugin",
-                "tooling"
-            ],
-            "category": "automation",
-            "created_at": "2026-09-13T16:07:04Z",
-            "pushed_at": "2026-10-17T14:31:19Z"
         },
         {
             "full_name": "owainlewis/machinist",
@@ -2761,7 +2761,7 @@
             "category": "trading",
             "description_th": "ระบบเทรดอัตโนมัติความเร็วสูงสำหรับตลาดคริปโตและหุ้น",
             "created_at": "2024-03-11T02:57:34Z",
-            "pushed_at": "2026-10-17T01:04:30Z"
+            "pushed_at": "2026-10-19T09:57:53Z"
         },
         {
             "full_name": "jim-schwoebel/awesome_ai_agents",
@@ -2897,15 +2897,15 @@
             "category": "ai",
             "description_th": "ทางเลือกโอเพนซอร์สแบบฟรีของ Claude Code CLI",
             "created_at": "2026-01-28T19:02:30Z",
-            "pushed_at": "2026-10-18T01:53:52Z"
+            "pushed_at": "2026-10-18T15:41:07Z"
         },
         {
             "full_name": "carreypro/ict-trading-model",
             "description": "ICT and SMC market-structure validation skill with deterministic OHLCV scanning",
             "description_th": "เครื่องมือเทรด/การเงิน โอเพนซอร์ส (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 325,
-            "forks_count": 16,
+            "stargazers_count": 323,
+            "forks_count": 20,
             "html_url": "https://github.com/carreypro/ict-trading-model",
             "topics": [
                 "agent-skill",
@@ -2933,7 +2933,7 @@
             "category": "automation",
             "description_th": "เครื่องมือ AI บนบรรทัดคำสั่งจาก Tencent สำหรับการทำงานเป็นทีม",
             "created_at": "2026-04-27T09:42:49Z",
-            "pushed_at": "2026-10-18T12:19:57Z"
+            "pushed_at": "2026-10-19T03:12:57Z"
         },
         {
             "full_name": "tashfeenahmed/freellmapi",
@@ -2950,7 +2950,7 @@
             "category": "ai",
             "description_th": "รวม API ของโมเดล LLM ฟรีหลายตัวไว้ใน API เดียว เรียกใช้ได้สะดวก",
             "created_at": "2026-04-21T13:38:59Z",
-            "pushed_at": "2026-10-18T11:16:39Z"
+            "pushed_at": "2026-10-19T10:45:42Z"
         },
         {
             "full_name": "tt-a1i/archify",
@@ -2966,7 +2966,7 @@
             "category": "tool",
             "description_th": "เครื่องมือออกแบบและวางสถาปัตยกรรมแอปพลิเคชันด้วย AI",
             "created_at": "2026-04-15T05:27:37Z",
-            "pushed_at": "2026-10-18T11:04:52Z"
+            "pushed_at": "2026-10-19T15:15:00Z"
         },
         {
             "full_name": "Taiquan-Zhou/RunTheRepo",
@@ -3048,8 +3048,8 @@
             "description": "🏛️ 推特顶级实战派交易员推文公开收录大典 · 剥离噪音，沉淀真金白银实盘认知体系与全量开源数据湖，完全开源免费 by 梭哈.AI",
             "description_th": "เครื่องมือเทรด/การเงิน โอเพนซอร์ส (เขียนด้วย HTML)",
             "language": "HTML",
-            "stargazers_count": 204,
-            "forks_count": 87,
+            "stargazers_count": 206,
+            "forks_count": 88,
             "html_url": "https://github.com/suoha888/Trader-Archives",
             "topics": [
                 "crypto-trading",
@@ -3077,7 +3077,7 @@
             "category": "tool",
             "description_th": "ชุดเครื่องมือสร้างคอนเทนต์แบบโอเพนซอร์ส",
             "created_at": "2024-12-17T01:59:22Z",
-            "pushed_at": "2026-10-18T09:58:54Z"
+            "pushed_at": "2026-10-19T01:37:37Z"
         },
         {
             "full_name": "PastFly/Selective-Remote",
@@ -3243,7 +3243,7 @@
             "description_th": "เครื่องมือเทรด/การเงิน — เทรด · คริปโต · กลยุทธ์ · บอท",
             "language": "-",
             "stargazers_count": 173,
-            "forks_count": 28,
+            "forks_count": 29,
             "html_url": "https://github.com/Nour-Br/Kalshi-crypto-15m-trading-bot",
             "topics": [
                 "15m",
@@ -3347,7 +3347,7 @@
             "description": "Real-time intraday stock scanner for US equities with a browser dashboard you lay out yourself",
             "description_th": "เครื่องมือเทรด/การเงิน — หุ้น/ข้อมูลตลาด · เบราว์เซอร์ · หน้าจอ/แดชบอร์ด · เรียลไทม์ (เขียนด้วย Python)",
             "language": "Python",
-            "stargazers_count": 154,
+            "stargazers_count": 155,
             "forks_count": 52,
             "html_url": "https://github.com/simonro/edge-scanner",
             "topics": [
@@ -3531,6 +3531,40 @@
             "pushed_at": "2026-08-31T17:19:45Z"
         },
         {
+            "full_name": "galleonlabs/hypergrok-trading-desk",
+            "description": "Grok Bot for Hyperliquid: an open-source 7-agent trading desk with roles, system prompts and 17 skills to research, size, execute and review. Also runs in Claude Code, Cursor, Codex and Gemini CLI.",
+            "description_th": "เครื่องมือเทรด/การเงิน — เทรด · เอเจนต์ AI · พรอมป์ต · บอท (เขียนด้วย Python)",
+            "language": "Python",
+            "stargazers_count": 125,
+            "forks_count": 29,
+            "html_url": "https://github.com/galleonlabs/hypergrok-trading-desk",
+            "topics": [
+                "agent-plugins",
+                "agent-skills",
+                "ai-agents",
+                "ai-trading",
+                "claude-code",
+                "claude-code-plugin",
+                "claude-code-skill",
+                "claude-plugin",
+                "claude-skills",
+                "codex",
+                "cursor-plugin",
+                "defi",
+                "gemini-cli-extension",
+                "grok-bot",
+                "hypergrok",
+                "hyperliquid",
+                "open-source",
+                "trading",
+                "trading-bot",
+                "trading-desk"
+            ],
+            "category": "trading",
+            "created_at": "2026-08-16T08:31:44Z",
+            "pushed_at": "2026-10-19T14:42:53Z"
+        },
+        {
             "full_name": "zargarkhan1/quorum-alpha-dash",
             "description": "Advanced Multi-Agent AI Crude Oil Trading System with Adversarial Validation 2026",
             "description_th": "เครื่องมือเทรด/การเงิน — เทรด · ระบบหลายเอเจนต์ · เอเจนต์ AI (เขียนด้วย HTML)",
@@ -3562,39 +3596,7 @@
             ],
             "category": "trading",
             "created_at": "2026-06-28T20:42:24Z",
-            "pushed_at": "2026-10-18T10:38:28Z"
-        },
-        {
-            "full_name": "galleonlabs/hypergrok-trading-desk",
-            "description": "Grok Bot for Hyperliquid: an open-source 7-agent trading desk with roles, system prompts and 17 skills to research, size, execute and review. Also runs in Claude Code, Cursor, Codex and Gemini CLI.",
-            "description_th": "เครื่องมือเทรด/การเงิน — เทรด · เอเจนต์ AI · พรอมป์ต · บอท (เขียนด้วย Python)",
-            "language": "Python",
-            "stargazers_count": 121,
-            "forks_count": 29,
-            "html_url": "https://github.com/galleonlabs/hypergrok-trading-desk",
-            "topics": [
-                "agent-plugins",
-                "agent-skills",
-                "ai-agents",
-                "ai-trading",
-                "claude-code",
-                "claude-code-skill",
-                "claude-plugin",
-                "claude-skills",
-                "cursor-plugin",
-                "defi",
-                "gemini-cli-extension",
-                "grok-bot",
-                "hypergrok",
-                "hyperliquid",
-                "open-source",
-                "trading",
-                "trading-bot",
-                "trading-desk"
-            ],
-            "category": "trading",
-            "created_at": "2026-08-16T08:31:44Z",
-            "pushed_at": "2026-10-16T09:50:48Z"
+            "pushed_at": "2026-10-19T12:53:49Z"
         },
         {
             "full_name": "7skooooo/mql5-systems-mirror",
@@ -3615,7 +3617,7 @@
             ],
             "category": "trading",
             "created_at": "2026-06-28T20:21:52Z",
-            "pushed_at": "2026-10-18T10:41:12Z"
+            "pushed_at": "2026-10-19T14:28:16Z"
         },
         {
             "full_name": "thx0701/openclaw-virtual-office",
@@ -3638,7 +3640,7 @@
             "description": "The LuxAlgo ecosystem as MCP tools: free and keyless.",
             "description_th": "เครื่องมือเทรด/การเงิน — MCP · ฟรี (เขียนด้วย TypeScript)",
             "language": "TypeScript",
-            "stargazers_count": 98,
+            "stargazers_count": 99,
             "forks_count": 37,
             "html_url": "https://github.com/LuxAlgo/luxalgo-mcp-server",
             "topics": [
@@ -3711,6 +3713,40 @@
             "pushed_at": "2026-09-14T08:00:04Z"
         },
         {
+            "full_name": "wasif-exe/wire",
+            "description": "Wire v9: from-scratch ultra-low-latency HFT stack in Rust and C. 24 crates: TCP/IP, AF_XDP, VFIO PCIe DMA, LMAX Disruptor, AVX2/AVX-512 SIMD, flat-array matching engine (11 cyc), HugePage slab (1.5 ns), lock-free MPMC, CME MDP 3.0 SBE, eBPF XDP risk. Zero heap allocs on the hot path. 46/46 tests pass.",
+            "description_th": "เครื่องมือเทรด/การเงิน — ฟรี (เขียนด้วย Rust)",
+            "language": "Rust",
+            "stargazers_count": 85,
+            "forks_count": 9,
+            "html_url": "https://github.com/wasif-exe/wire",
+            "topics": [
+                "af-xdp",
+                "avx2",
+                "disruptor",
+                "financial-exchange",
+                "hft",
+                "hugepages",
+                "io-uring",
+                "kernel-bypass",
+                "lock-free",
+                "low-latency",
+                "matching-engine",
+                "networking",
+                "order-book",
+                "quic",
+                "rust",
+                "simd",
+                "tcp-stack",
+                "trading",
+                "vfio",
+                "xdp"
+            ],
+            "category": "trading",
+            "created_at": "2026-09-17T07:44:10Z",
+            "pushed_at": "2026-10-19T00:26:31Z"
+        },
+        {
             "full_name": "signalbetorg/crypto-signal",
             "description": " production grade real time trading signal platform on binance, bybit, coinbase and upbit",
             "description_th": "เครื่องมือเทรด/การเงิน — เทรด · เรียลไทม์ (เขียนด้วย TypeScript)",
@@ -3738,7 +3774,7 @@
             "description_th": "เครื่องมือเทรด/การเงิน — เทรด · โมเดล AI ชั้นนำ · ทำงานออฟไลน์ (เขียนด้วย JavaScript)",
             "language": "JavaScript",
             "stargazers_count": 83,
-            "forks_count": 39,
+            "forks_count": 38,
             "html_url": "https://github.com/simonro/Trading-Journal-AI",
             "topics": [
                 "anthropic",
@@ -3763,40 +3799,6 @@
             "pushed_at": "2026-10-08T16:34:45Z"
         },
         {
-            "full_name": "wasif-exe/wire",
-            "description": "Wire v9: from-scratch ultra-low-latency HFT stack in Rust and C. 24 crates: TCP/IP, AF_XDP, VFIO PCIe DMA, LMAX Disruptor, AVX2/AVX-512 SIMD, flat-array matching engine (11 cyc), HugePage slab (1.5 ns), lock-free MPMC, CME MDP 3.0 SBE, eBPF XDP risk. Zero heap allocs on the hot path. 46/46 tests pass.",
-            "description_th": "เครื่องมือเทรด/การเงิน — ฟรี (เขียนด้วย Rust)",
-            "language": "Rust",
-            "stargazers_count": 82,
-            "forks_count": 9,
-            "html_url": "https://github.com/wasif-exe/wire",
-            "topics": [
-                "af-xdp",
-                "avx2",
-                "disruptor",
-                "financial-exchange",
-                "hft",
-                "hugepages",
-                "io-uring",
-                "kernel-bypass",
-                "lock-free",
-                "low-latency",
-                "matching-engine",
-                "networking",
-                "order-book",
-                "quic",
-                "rust",
-                "simd",
-                "tcp-stack",
-                "trading",
-                "vfio",
-                "xdp"
-            ],
-            "category": "trading",
-            "created_at": "2026-09-17T07:44:10Z",
-            "pushed_at": "2026-10-16T06:05:16Z"
-        },
-        {
             "full_name": "Osmantic/ODS",
             "description": "Open Data Server - AI server suite",
             "language": "Docker",
@@ -3810,7 +3812,7 @@
             "category": "tool",
             "description_th": "เซิร์ฟเวอร์ AI ครบวงจรในตัวเดียว รวม Ollama, OpenWebUI, n8n และ ComfyUI",
             "created_at": "2026-02-09T13:14:58Z",
-            "pushed_at": "2026-10-18T10:57:33Z"
+            "pushed_at": "2026-10-19T15:19:14Z"
         },
         {
             "full_name": "noahnan-max/chanlun-trading-system",
